@@ -296,3 +296,76 @@
   outline: 2px solid #2e2922;
   outline-offset: 2px;
 }
+
+
+/* Booking dialog polish */
+.booking-modal { padding: 20px; }
+.booking-modal__backdrop { background: rgba(20, 22, 24, 0.72); backdrop-filter: blur(3px); }
+.booking-modal__panel {
+  width: min(100%, 560px); max-width: 560px; padding: 40px;
+  border: 1px solid rgba(45, 38, 32, 0.12); border-radius: 8px;
+  box-shadow: 0 24px 70px rgba(20, 18, 15, 0.28);
+}
+.booking-modal__panel h2 {
+  margin: 0 48px 28px 0; color: #2d2620;
+  font-family: "Nanum Myeongjo", "Times New Roman", serif;
+  font-size: 30px; font-weight: 600; letter-spacing: -0.02em;
+}
+.booking-modal__close {
+  top: 24px; right: 24px; width: 40px; height: 40px; padding: 0;
+  border: 1px solid rgba(45, 38, 32, 0.14); border-radius: 50%;
+  background: #fff; color: #2d2620; font-size: 25px; font-weight: 300;
+  transition: background 150ms ease, color 150ms ease, transform 150ms ease;
+}
+.booking-modal__close:hover, .booking-modal__close:focus-visible {
+  background: #2d2620; color: #fff; transform: rotate(90deg);
+}
+.booking-field-row {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(92px, 0.62fr);
+  gap: 14px; margin-bottom: 20px;
+}
+.booking-field-row label, .booking-modal__panel > div > label, #bk-guest-form > label {
+  min-width: 0; margin-bottom: 0; color: #5a4e42; font-size: 11px;
+  font-weight: 600; letter-spacing: 0.12em;
+}
+.booking-modal__panel input, .booking-modal__panel textarea {
+  min-height: 48px; margin-top: 8px; padding: 12px 14px;
+  border: 1px solid #d7d0c6; border-radius: 4px; background: #fff;
+  color: #2d2620; outline: none;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+.booking-modal__panel input:focus, .booking-modal__panel textarea:focus {
+  border-color: #b8794e; box-shadow: 0 0 0 3px rgba(184, 121, 78, 0.16);
+}
+#bk-check-availability, #bk-guest-form button[type="submit"] {
+  min-height: 48px; margin-top: 2px; border: 1px solid #2d2620;
+  border-radius: 4px; background: #2d2620; color: #fff;
+  font-family: "Red Hat Display", sans-serif; font-size: 13px;
+  font-weight: 600; letter-spacing: 0.08em;
+  transition: background 150ms ease, transform 150ms ease;
+}
+#bk-check-availability:hover, #bk-guest-form button[type="submit"]:hover {
+  background: #b8794e; border-color: #b8794e; transform: translateY(-1px);
+}
+#bk-availability-result { margin: 16px 0 0; color: #5a4e42; line-height: 1.5; }
+
+.elementor-2 .elementor-element.elementor-element-3ab2cd12::before {
+  position: absolute; inset: 0; z-index: 0;
+  background: linear-gradient(180deg, rgba(10, 16, 22, 0.32), rgba(10, 16, 22, 0.52));
+  content: ""; pointer-events: none;
+}
+.elementor-2 .elementor-element.elementor-element-3ab2cd12 > .elementor-container {
+  position: relative; z-index: 1;
+}
+@media (max-width: 600px) {
+  .booking-modal { padding: 12px; }
+  .booking-modal__panel { padding: 28px 22px; }
+  .booking-modal__panel h2 { margin-bottom: 22px; font-size: 26px; }
+  .booking-field-row { grid-template-columns: 1fr 1fr; }
+  .booking-field-row label:last-child { grid-column: 1 / -1; }
+}
+@media (max-width: 420px) {
+  .booking-field-row { grid-template-columns: 1fr; }
+  .booking-field-row label:last-child { grid-column: auto; }
+}
+
