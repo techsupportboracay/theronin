@@ -370,190 +370,69 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 					</div>
 					</div>
 				</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-3e0fb250 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3e0fb250" data-element_type="section" data-e-type="section" id="contact" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-<?php if (($_GET['sent'] ?? '') === '1'): ?><div class="site-notice site-notice--success">Thanks — your message has been sent. We will get back to you shortly.</div><?php endif; ?>
+				<section id="contact" class="site-section">
+<?php if (($_GET['sent'] ?? '') === '1'): ?><div class="site-notice site-notice--success">Thanks &mdash; your message has been sent. We will get back to you shortly.</div><?php endif; ?>
 <?php if (($_GET['sent'] ?? '') === '0'): ?><div class="site-notice site-notice--error">Sorry, something went wrong sending your message. Please try WhatsApp instead.</div><?php endif; ?>
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-62dac6" data-id="62dac6" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-				<div class="elementor-element elementor-element-0562180 e-flex e-con-boxed e-con e-parent" data-id="0562180" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-8e3bd55 elementor-widget elementor-widget-text-editor" data-id="8e3bd55" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>05 / Book Your Stay</p>								</div>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-c46c599 elementor-widget elementor-widget-heading" data-id="c46c599" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">A quiet stay is waiting.</h2>				</div>
-				<div class="elementor-element elementor-element-5756483 elementor-widget elementor-widget-formidable" data-id="5756483" data-element_type="widget" data-e-type="widget" data-widget_type="formidable.default">
-				<div class="elementor-widget-container">
-					<div class="frm_forms  with_frm_style frm_style_formidable-style" id="frm_form_1_container" >
-<form method="post" action="api/contact.php" class="frm-show-form " id="form_contact-form">
-<div class="frm_form_fields ">
-<fieldset>
-<legend class="frm_screen_reader">Contact Us</legend>
-
-<div class="frm_fields_container">
-<div id="frm_field_1_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_first frm_half">
-	<label for="field_qh4icy" id="field_qh4icy_label" class="frm_primary_label">Name
-		<span class="frm_required" aria-hidden="true">*</span>
-	</label>
-	<input type="text" id="field_qh4icy" name="first_name" required value=""  data-reqmsg="Name cannot be blank." aria-required="true" data-invmsg="Name is invalid" aria-invalid="false" aria-describedby="frm_desc_field_qh4icy"  />
-	<div class="frm_description" id="frm_desc_field_qh4icy">First</div>
-	
-</div>
-<div id="frm_field_2_container" class="frm_form_field form-field  frm_required_field frm_hidden_container frm_half">
-	<label for="field_ocfup1" id="field_ocfup1_label" class="frm_primary_label">Last
-		<span class="frm_required" aria-hidden="true">*</span>
-	</label>
-	<input type="text" id="field_ocfup1" name="last_name" required value=""  data-reqmsg="Last cannot be blank." aria-required="true" data-invmsg="Last is invalid" aria-invalid="false" aria-describedby="frm_desc_field_ocfup1"  />
-	<div class="frm_description" id="frm_desc_field_ocfup1">Last</div>
-	
-</div>
-<div id="frm_field_3_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_full">
-	<label for="field_29yf4d" id="field_29yf4d_label" class="frm_primary_label">Email
-		<span class="frm_required" aria-hidden="true">*</span>
-	</label>
-	<input type="email" id="field_29yf4d" name="email" required value=""  data-reqmsg="Email cannot be blank." aria-required="true" data-invmsg="Please enter a valid email address" aria-invalid="false"  />
-	
-	
-</div>
-<div id="frm_field_4_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_full">
-	<label for="field_e6lis6" id="field_e6lis6_label" class="frm_primary_label">Subject
-		<span class="frm_required" aria-hidden="true">*</span>
-	</label>
-	<input type="text" id="field_e6lis6" name="subject" required value=""  data-reqmsg="Subject cannot be blank." aria-required="true" data-invmsg="Subject is invalid" aria-invalid="false"  />
-	
-	
-</div>
-<div id="frm_field_5_container" class="frm_form_field form-field  frm_required_field frm_top_container frm_full">
-	<label for="field_9jv0r1" id="field_9jv0r1_label" class="frm_primary_label">Message
-		<span class="frm_required" aria-hidden="true">*</span>
-	</label>
-	<textarea name="message" required id="field_9jv0r1" rows="5"  data-reqmsg="Message cannot be blank." aria-required="true" data-invmsg="Message is invalid" aria-invalid="false"  ></textarea>
-	
-	
-</div>
-				<div id="frm_field_6_container">
-			<label for="field_nfaqi" >
-				If you are human, leave this field blank.			</label>
-			<input  id="field_nfaqi" type="text" class="frm_form_field form-field frm_verify" name="website" tabindex="-1" autocomplete="off" value=""  />
-		</div>
-		<div class="frm_submit frm_flex">
-<button class="frm_button_submit" type="submit"  >Submit</button>
-
-
-
-</div></div>
-</fieldset>
-</div>
-
-</form>
-</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-51c6f731" data-id="51c6f731" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-6b117a0 elementor-widget elementor-widget-spacer" data-id="6b117a0" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
+					<div class="site-section__row contact__row">
+						<div class="contact__form-col">
+							<p class="contact__kicker">05 / Book Your Stay</p>
+							<h2 class="section-heading">A quiet stay is waiting.</h2>
+							<form method="post" action="api/contact.php" class="contact-form">
+								<div class="contact-form__field">
+									<label for="contact-first-name">Name <span class="contact-form__required" aria-hidden="true">*</span></label>
+									<div class="contact-form__name-row">
+										<div>
+											<input type="text" id="contact-first-name" name="first_name" required aria-required="true">
+											<span class="contact-form__hint">First</span>
+										</div>
+										<div>
+											<input type="text" id="contact-last-name" name="last_name" required aria-required="true" aria-label="Last name">
+											<span class="contact-form__hint">Last</span>
+										</div>
+									</div>
+								</div>
+								<div class="contact-form__field">
+									<label for="contact-email">Email <span class="contact-form__required" aria-hidden="true">*</span></label>
+									<input type="email" id="contact-email" name="email" required aria-required="true">
+								</div>
+								<div class="contact-form__field">
+									<label for="contact-subject">Subject <span class="contact-form__required" aria-hidden="true">*</span></label>
+									<input type="text" id="contact-subject" name="subject" required aria-required="true">
+								</div>
+								<div class="contact-form__field">
+									<label for="contact-message">Message <span class="contact-form__required" aria-hidden="true">*</span></label>
+									<textarea id="contact-message" name="message" rows="5" required aria-required="true"></textarea>
+								</div>
+								<div class="contact-form__honeypot">
+									<label for="contact-website">If you are human, leave this field blank.</label>
+									<input type="text" id="contact-website" name="website" tabindex="-1" autocomplete="off">
+								</div>
+								<button type="submit" class="btn">Submit</button>
+							</form>
 						</div>
-				<div class="elementor-element elementor-element-25df520 elementor-widget__width-initial elementor-widget elementor-widget-icon-box" data-id="25df520" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
-							<div class="elementor-icon-box-wrapper">
-
-			
-						<div class="elementor-icon-box-content">
-
-									<h3 class="elementor-icon-box-title">
-						<span  >
-							Address						</span>
-					</h3>
-				
-									<p class="elementor-icon-box-description">
-						Tourism Road Catangnan<br>General Luna, Siargao Island<br>Surigao Del Norte, Philippines					</p>
-				
-			</div>
-			
-		</div>
-						</div>
-				<div class="elementor-element elementor-element-747d68b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="747d68b" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
-							<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-						</div>
-				<div class="elementor-element elementor-element-f91b84c elementor-widget elementor-widget-icon-box" data-id="f91b84c" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
-							<div class="elementor-icon-box-wrapper">
-
-			
-						<div class="elementor-icon-box-content">
-
-									<h3 class="elementor-icon-box-title">
-						<span  >
-							Phone / WhatsApp						</span>
-					</h3>
-				
-									<p class="elementor-icon-box-description">
-						+63 906 399 4675					</p>
-				
-			</div>
-			
-		</div>
-						</div>
-				<div class="elementor-element elementor-element-318808f elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="318808f" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
-							<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-						</div>
-				<div class="elementor-element elementor-element-cf4282a elementor-widget elementor-widget-icon-box" data-id="cf4282a" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
-							<div class="elementor-icon-box-wrapper">
-
-			
-						<div class="elementor-icon-box-content">
-
-									<h3 class="elementor-icon-box-title">
-						<span  >
-							Email						</span>
-					</h3>
-				
-									<p class="elementor-icon-box-description">
-						<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="cba2a5ada48bbfa3aeb9a4a5a2a5b8a2aab9acaaa4e5a8a4a6">[email&#160;protected]</a>					</p>
-				
-			</div>
-			
-		</div>
-						</div>
-				<div class="elementor-element elementor-element-5457f4a elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="5457f4a" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
-							<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-						</div>
-				<div class="elementor-element elementor-element-4a4b556 elementor-widget elementor-widget-icon-box" data-id="4a4b556" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
-							<div class="elementor-icon-box-wrapper">
-
-			
-						<div class="elementor-icon-box-content">
-
-									<h3 class="elementor-icon-box-title">
-						<span  >
-							Check-in / Check-out						</span>
-					</h3>
-				
-									<p class="elementor-icon-box-description">
-						Check-in: 3:00 PM<br>Check-out: 12:00 PM					</p>
-				
-			</div>
-			
-		</div>
+						<div class="contact__info-col">
+							<div class="contact__info-item">
+								<h3 class="contact__info-title">Address</h3>
+								<p class="contact__info-desc">Tourism Road Catangnan<br>General Luna, Siargao Island<br>Surigao Del Norte, Philippines</p>
+							</div>
+							<span class="contact__divider"></span>
+							<div class="contact__info-item">
+								<h3 class="contact__info-title">Phone / WhatsApp</h3>
+								<p class="contact__info-desc">+63 906 399 4675</p>
+							</div>
+							<span class="contact__divider"></span>
+							<div class="contact__info-item">
+								<h3 class="contact__info-title">Email</h3>
+								<p class="contact__info-desc"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="cba2a5ada48bbfa3aeb9a4a5a2a5b8a2aab9acaaa4e5a8a4a6">[email&#160;protected]</a></p>
+							</div>
+							<span class="contact__divider"></span>
+							<div class="contact__info-item">
+								<h3 class="contact__info-title">Check-in / Check-out</h3>
+								<p class="contact__info-desc">Check-in: 3:00 PM<br>Check-out: 12:00 PM</p>
+							</div>
 						</div>
 					</div>
-		</div>
-					</div>
-		</section>
+				</section>
 		<div class="elementor-element elementor-element-ecf85fe e-flex e-con-boxed e-con e-parent" data-id="ecf85fe" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-85b1aab elementor-widget elementor-widget-text-editor" data-id="85b1aab" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
@@ -818,14 +697,7 @@ We recommend booking ahead, particularly during weekends, holidays, and peak tra
 				</div>
 		</div>		</footer>
 		</div><!-- #page -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-				( function() {
-					const style = document.createElement( 'style' );
-					style.appendChild( document.createTextNode( '#frm_field_6_container {visibility:hidden;overflow:hidden;width:0;height:0;position:absolute;}' ) );
-					document.head.appendChild( style );
-					document.currentScript?.remove();
-				} )();
-			</script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 
 <div id="ast-scroll-top" tabindex="0" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both">
 	<span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewbox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">

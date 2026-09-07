@@ -718,11 +718,8 @@ body {
 }
 
 /* Shared section rhythm */
-.elementor-2 .elementor-element.elementor-element-3e0fb250,
 .elementor-2 .elementor-element.elementor-element-6a42da53 {
   padding: clamp(82px, 9vw, 144px) clamp(22px, 5vw, 72px) !important;
-}
-.elementor-2 .elementor-element.elementor-element-6a42da53 {
   background: var(--ronin-sand) !important;
 }
 
@@ -860,17 +857,6 @@ body {
   }
 }
 
-/* Editorial headings */
-.elementor-2 .elementor-element.elementor-element-290d8f9c .elementor-heading-title {
-  max-width: 720px;
-  margin-top: 18px;
-  font-family: "Nanum Myeongjo", Georgia, serif;
-  font-size: clamp(38px, 4.4vw, 64px);
-  font-weight: 400;
-  line-height: 1.04;
-  letter-spacing: -0.045em;
-}
-
 /* Content section shell + primitives, shared by every rewritten section */
 .site-section {
   scroll-margin-top: 92px;
@@ -961,18 +947,6 @@ body {
   transform: scale(1.045);
 }
 
-#contact .elementor-button {
-  border-radius: 999px !important;
-  padding: 14px 24px !important;
-  background: var(--ronin-ink) !important;
-  color: #fff !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.08em;
-}
-#contact .elementor-button:hover {
-  background: var(--ronin-accent) !important;
-}
-
 /* Amenities */
 #amenities {
   padding: 72px clamp(22px, 5vw, 72px) 88px;
@@ -1030,30 +1004,128 @@ body {
   background: var(--ronin-line);
   content: "";
 }
-#contact .elementor-element-51c6f731 > .elementor-element-populated,
-#contact .elementor-element-51c6f731 > .elementor-widget-wrap {
-  padding-left: 40px;
+.contact__kicker {
+  margin: 0;
+  color: #bb7300;
+  font-family: "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 400;
 }
-#contact .elementor-form,
-#contact .frm_forms {
+.contact__row {
+  display: flex;
+  gap: 40px;
+}
+.contact__form-col,
+.contact__info-col {
+  flex: 1 1 50%;
+  min-width: 0;
+}
+.contact-form {
+  margin-top: 18px;
   padding: clamp(24px, 4vw, 48px);
   border: 1px solid var(--ronin-line);
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.48);
   box-shadow: 0 18px 45px rgba(41, 35, 31, 0.06);
 }
+.contact-form__field {
+  margin-bottom: 20px;
+}
+.contact-form__field label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ronin-ink);
+  font-size: 14px;
+  font-weight: 500;
+}
+.contact-form__required {
+  color: #c0392b;
+}
+.contact-form__name-row {
+  display: flex;
+  gap: 16px;
+}
+.contact-form__name-row > div {
+  flex: 1 1 50%;
+  min-width: 0;
+}
+.contact-form__hint {
+  display: block;
+  margin-top: 6px;
+  color: var(--ronin-muted);
+  font-size: 12px;
+}
+.contact-form__honeypot {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.contact-form button[type="submit"] {
+  border: none;
+}
 #contact input,
 #contact textarea,
 #contact select {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 14px;
   border-color: rgba(41, 35, 31, 0.2);
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.82);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+#contact textarea {
+  min-height: auto;
 }
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
   border-color: var(--ronin-accent);
+  outline: none;
   box-shadow: 0 0 0 3px rgba(174, 112, 76, 0.14);
+}
+
+/* Contact info column */
+.contact__info-col {
+  padding-left: 40px;
+}
+.contact__info-item {
+  padding: 20px 0;
+}
+.contact__info-item:first-child {
+  padding-top: 0;
+}
+.contact__info-title {
+  margin: 0 0 8px;
+  color: var(--ronin-ink);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.contact__info-desc {
+  margin: 0;
+  color: var(--ronin-muted);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+.contact__divider {
+  display: block;
+  border-top: 1px solid var(--ronin-line);
+}
+@media (max-width: 767px) {
+  .contact__row {
+    flex-direction: column;
+    gap: 0;
+  }
+  .contact__info-col {
+    padding-left: 0;
+  }
 }
 
 /* FAQ refinement */
@@ -1157,15 +1229,13 @@ body {
   .hero__tagline {
     font-size: 15px;
   }
-  .elementor-2 .elementor-element.elementor-element-3e0fb250,
   .elementor-2 .elementor-element.elementor-element-6a42da53 {
     padding: 72px 20px !important;
   }
   #contact::before {
     display: none;
   }
-  #contact .elementor-form,
-  #contact .frm_forms {
+  .contact-form {
     padding: 22px 18px;
   }
 }
