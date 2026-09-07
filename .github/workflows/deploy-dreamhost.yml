@@ -30,7 +30,8 @@ jobs:
         run: |
           tar \
             --exclude='.git' \
-            --exclude='.github' \
+            --exclude='.github'
+            --exclude='deploy.tar.gz' \
             --exclude='storage/*.json' \
             --exclude='storage/*.log' \
             -czf deploy.tar.gz .
