@@ -372,3 +372,119 @@
 
 .elementor-2 .elementor-element.elementor-element-3ab2cd12 { position: relative; }
 
+
+
+/* Header redesign: warm editorial navigation with a quieter footprint. */
+.elementor-42 .elementor-element.elementor-element-43ce6265 {
+  min-height: 84px !important;
+  margin-bottom: -84px !important;
+  padding-left: clamp(20px, 5vw, 72px) !important;
+  padding-right: clamp(20px, 5vw, 72px) !important;
+  background: rgba(248, 241, 235, 0.94) !important;
+  border-bottom: 1px solid rgba(45, 38, 32, 0.10);
+  box-shadow: 0 8px 24px rgba(45, 38, 32, 0.06);
+  backdrop-filter: blur(12px);
+}
+.elementor-42 .elementor-element.elementor-element-43ce6265 > .e-con-inner {
+  width: min(100%, 1280px);
+  min-height: 84px !important;
+}
+.elementor-42 .elementor-element.elementor-element-6a805c3c img {
+  width: 250px !important;
+  height: 72px !important;
+}
+.elementor-42 .elementor-element.elementor-element-36bc6f72 {
+  gap: clamp(12px, 2.1vw, 34px) !important;
+}
+.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item {
+  position: relative;
+  padding: 9px 13px !important;
+  color: #2d2620 !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.08em !important;
+  transition: color 180ms ease, background 180ms ease;
+}
+.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item::after {
+  position: absolute;
+  right: 13px;
+  bottom: 3px;
+  left: 13px;
+  height: 1px;
+  background: #b8794e !important;
+  content: "";
+  opacity: 0;
+  transform: scaleX(0.35);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item:hover,
+.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item:focus,
+.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item.elementor-item-active {
+  color: #b8794e !important;
+  background: transparent !important;
+}
+.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item:hover::after,
+.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item:focus::after,
+.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item.elementor-item-active::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+.elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button {
+  padding: 14px 22px !important;
+  border: 1px solid #2d2620 !important;
+  border-radius: 999px !important;
+  background: #2d2620 !important;
+  color: #fff !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.12em !important;
+  transition: background 180ms ease, color 180ms ease, transform 180ms ease;
+}
+.elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button:hover,
+.elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button:focus {
+  background: #b8794e !important;
+  border-color: #b8794e !important;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 1024px) {
+  .elementor-42 .elementor-element.elementor-element-43ce6265,
+  .elementor-42 .elementor-element.elementor-element-43ce6265 > .e-con-inner {
+    min-height: 78px !important;
+  }
+  .elementor-42 .elementor-element.elementor-element-6a805c3c img {
+    width: 220px !important;
+    height: 64px !important;
+  }
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item {
+    padding-right: 9px !important;
+    padding-left: 9px !important;
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .elementor-42 .elementor-element.elementor-element-43ce6265 {
+    min-height: 72px !important;
+    margin-bottom: -72px !important;
+  }
+  .elementor-42 .elementor-element.elementor-element-43ce6265 > .e-con-inner {
+    min-height: 72px !important;
+  }
+  .elementor-42 .elementor-element.elementor-element-6a805c3c img {
+    width: 180px !important;
+    height: 58px !important;
+  }
+  .elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button {
+    padding: 11px 15px !important;
+    font-size: 10px !important;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .elementor-42 .elementor-element.elementor-element-543f2c7f { --width: 42% !important; }
+  .elementor-42 .elementor-element.elementor-element-36bc6f72 { --width: 58% !important; }
+}
+
