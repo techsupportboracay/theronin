@@ -2,16 +2,17 @@
 require_once __DIR__ . '/env.php';
 
 /**
- * Sends a plain-text email via direct SMTP (no external library) when SMTP_HOST
- * is configured, otherwise falls back to PHP's mail(). Returns true on success.
+ * Sends an email via direct SMTP (no external library) when SMTP_HOST is
+ * configured, otherwise falls back to PHP's mail(). Returns true on success.
  */
-function send_mail(string $to, string $subject, string $body, ?string $replyTo = null): bool
+function send_mail(string $to, string $subject, string $body, ?string $replyTo = null, bool $isHtml = false): bool
 {
     $host = env('SMTP_HOST');
     $from = env('SMTP_FROM', 'no-reply@theroninsiargao.com');
+    $contentType = $isHtml ? "Content-Type: text/html; charset=UTF-8\r\n" : "Content-Type: text/plain; charset=UTF-8\r\n";
 
     if (!$host) {
-        $headers = "From: $from\r\n";
+        $headers = "From: $from\r\n" . $contentType;
         if ($replyTo) {
             $headers .= "Reply-To: $replyTo\r\n";
         }
@@ -72,7 +73,7 @@ function send_mail(string $to, string $subject, string $body, ?string $replyTo =
     $write('DATA');
     $read();
 
-    $headers = "From: $from\r\nTo: $to\r\nSubject: $subject\r\n";
+    $headers = "From: $from\r\nTo: $to\r\nSubject: $subject\r\n" . $contentType;
     if ($replyTo) {
         $headers .= "Reply-To: $replyTo\r\n";
     }

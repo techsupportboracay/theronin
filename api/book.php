@@ -101,29 +101,99 @@ $bankSwift = env('BANK_SWIFT', '');
 $reference = $booking['id'] ?? 'pending';
 $whatsapp = env('WHATSAPP_NUMBER');
 
-$guestBody = <<<TXT
-Hi $firstName,
+$totalFormatted = number_format($totalPrice, 2);
+$firstNameSafe = htmlspecialchars($firstName, ENT_QUOTES, 'UTF-8');
+$whatsappLink = 'https://wa.me/' . $whatsapp;
 
-Thanks for requesting a stay at The Ronin Siargao!
+$guestBody = <<<HTML
+<!doctype html>
+<html>
+<body style="margin:0;padding:0;background:#f1e8dc;font-family:'DM Sans',Arial,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f1e8dc;padding:32px 16px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="560" cellpadding="0" cellspacing="0" style="max-width:560px;width:100%;background:#fbf8f4;border:1px solid rgba(41,35,31,0.14);">
+          <tr>
+            <td style="padding:36px 40px 24px;text-align:center;border-bottom:1px solid rgba(41,35,31,0.14);">
+              <span style="font-family:Georgia,'Times New Roman',serif;font-size:20px;letter-spacing:2px;color:#29231f;">THE RONIN SIARGAO</span>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:32px 40px 8px;">
+              <p style="margin:0 0 16px;color:#29231f;font-size:16px;">Hi $firstNameSafe,</p>
+              <p style="margin:0 0 24px;color:#6f655d;font-size:15px;line-height:1.6;">Thanks for requesting a stay at The Ronin Siargao! Here's a summary of your request.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid rgba(41,35,31,0.14);">
+                <tr>
+                  <td style="padding:14px 18px;color:#6f655d;font-size:13px;border-bottom:1px solid rgba(41,35,31,0.14);">Check-in</td>
+                  <td style="padding:14px 18px;color:#29231f;font-size:13px;font-weight:600;text-align:right;border-bottom:1px solid rgba(41,35,31,0.14);">$checkin</td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 18px;color:#6f655d;font-size:13px;border-bottom:1px solid rgba(41,35,31,0.14);">Check-out</td>
+                  <td style="padding:14px 18px;color:#29231f;font-size:13px;font-weight:600;text-align:right;border-bottom:1px solid rgba(41,35,31,0.14);">$checkout</td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 18px;color:#6f655d;font-size:13px;border-bottom:1px solid rgba(41,35,31,0.14);">Guests</td>
+                  <td style="padding:14px 18px;color:#29231f;font-size:13px;font-weight:600;text-align:right;border-bottom:1px solid rgba(41,35,31,0.14);">$guests</td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 18px;color:#6f655d;font-size:13px;border-bottom:1px solid rgba(41,35,31,0.14);">Booking reference</td>
+                  <td style="padding:14px 18px;color:#29231f;font-size:13px;font-weight:600;text-align:right;border-bottom:1px solid rgba(41,35,31,0.14);">$reference</td>
+                </tr>
+                <tr>
+                  <td style="padding:14px 18px;color:#29231f;font-size:14px;font-weight:600;">Total</td>
+                  <td style="padding:14px 18px;color:#ae704c;font-size:16px;font-weight:700;text-align:right;">PHP $totalFormatted</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:24px 40px 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f1e8dc;border-left:3px solid #ae704c;">
+                <tr>
+                  <td style="padding:18px 22px;">
+                    <p style="margin:0 0 12px;color:#29231f;font-size:14px;font-weight:600;">Full payment is required to confirm your reservation</p>
+                    <p style="margin:0 0 14px;color:#29231f;font-size:14px;">Please send <strong>PHP $totalFormatted</strong> via bank transfer:</p>
+                    <table role="presentation" cellpadding="0" cellspacing="0" style="font-size:13px;color:#6f655d;">
+                      <tr><td style="padding:2px 0;">Bank</td><td style="padding:2px 0 2px 10px;color:#29231f;font-weight:600;">$bankName</td></tr>
+                      <tr><td style="padding:2px 0;">Account name</td><td style="padding:2px 0 2px 10px;color:#29231f;font-weight:600;">$bankAccountName</td></tr>
+                      <tr><td style="padding:2px 0;">Account number</td><td style="padding:2px 0 2px 10px;color:#29231f;font-weight:600;">$bankAccountNumber</td></tr>
+                      <tr><td style="padding:2px 0;">SWIFT</td><td style="padding:2px 0 2px 10px;color:#29231f;font-weight:600;">$bankSwift</td></tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:28px 40px 8px;">
+              <p style="margin:0 0 20px;color:#6f655d;font-size:14px;line-height:1.6;">Once we receive your transfer we'll confirm your booking by email. If you have questions, message us on WhatsApp.</p>
+              <table role="presentation" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="background:#29231f;">
+                    <a href="$whatsappLink" style="display:inline-block;padding:12px 26px;color:#fbf8f4;font-size:14px;font-weight:600;text-decoration:none;">Message us on WhatsApp</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:32px 40px 36px;border-top:1px solid rgba(41,35,31,0.14);margin-top:24px;">
+              <p style="margin:24px 0 0;color:#6f655d;font-size:13px;">- The Ronin Siargao</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+HTML;
 
-Check-in: $checkin
-Check-out: $checkout
-Guests: $guests
-Total: PHP $totalPrice
-Booking reference: $reference
-
-Full payment is required to confirm your reservation. Please send PHP $totalPrice via bank transfer:
-Bank: $bankName
-Account name: $bankAccountName
-Account number: $bankAccountNumber
-SWIFT: $bankSwift
-
-Once we receive your transfer we'll confirm your booking by email. If you have questions, message us on WhatsApp: https://wa.me/$whatsapp
-
-- The Ronin Siargao
-TXT;
-
-send_mail($email, 'Your booking request - The Ronin Siargao', $guestBody);
+send_mail($email, 'Your booking request - The Ronin Siargao', $guestBody, null, true);
 
 $notifyEmail = env('NOTIFY_EMAIL');
 if ($notifyEmail) {
