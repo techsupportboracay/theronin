@@ -166,103 +166,62 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 <div
 class="hfeed site" id="page">
-			<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-			<p class="main-title bhf-hidden" itemprop="headline"><a href="https://theroninsiargao.com/" title="The Ronin Siargao" rel="home">The Ronin Siargao</a></p>
-			<style>.elementor-42 .elementor-element.elementor-element-43ce6265{--display:flex;--min-height:80px;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--align-items:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--margin-top:0px;--margin-bottom:-80px;--margin-left:0px;--margin-right:0px;--padding-top:0%;--padding-bottom:0%;--padding-left:5%;--padding-right:5%;--z-index:95;}.elementor-42 .elementor-element.elementor-element-43ce6265:not(.elementor-motion-effects-element-type-background), .elementor-42 .elementor-element.elementor-element-43ce6265 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#F2E7DF;}.elementor-42 .elementor-element.elementor-element-543f2c7f{--display:flex;--min-height:50px;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:20px 20px;--row-gap:20px;--column-gap:20px;--margin-top:0px;--margin-bottom:0px;--margin-left:-6px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-42 .elementor-element.elementor-element-6a805c3c{text-align:start;}.elementor-42 .elementor-element.elementor-element-6a805c3c img{width:312px;max-width:100%;height:96px;object-fit:contain;object-position:center center;}.elementor-42 .elementor-element.elementor-element-36bc6f72{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-end;--align-items:center;--gap:2.2% 2.2%;--row-gap:2.2%;--column-gap:2.2%;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-widget-nav-menu .elementor-nav-menu .elementor-item{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item{color:var( --e-global-color-text );fill:var( --e-global-color-text );}.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item:hover,
-					.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item.elementor-item-active,
-					.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item.highlighted,
-					.elementor-widget-nav-menu .elementor-nav-menu--main .elementor-item:focus{color:var( --e-global-color-accent );fill:var( --e-global-color-accent );}.elementor-widget-nav-menu .elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item:before,
-					.elementor-widget-nav-menu .elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item:after{background-color:var( --e-global-color-accent );}.elementor-widget-nav-menu .e--pointer-framed .elementor-item:before,
-					.elementor-widget-nav-menu .e--pointer-framed .elementor-item:after{border-color:var( --e-global-color-accent );}.elementor-widget-nav-menu{--e-nav-menu-divider-color:var( --e-global-color-text );}.elementor-widget-nav-menu .elementor-nav-menu--dropdown .elementor-item, .elementor-widget-nav-menu .elementor-nav-menu--dropdown  .elementor-sub-item{font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-42 .elementor-element.elementor-element-130b05ce{width:auto;max-width:auto;--e-nav-menu-horizontal-menu-item-margin:calc( 40px / 2 );}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle{margin-left:auto;background-color:#FFFFFF00;border-width:0px;border-radius:0px;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu .elementor-item{font-family:"Roboto", Sans-serif;font-size:16px;font-weight:300;text-transform:uppercase;font-style:normal;text-decoration:none;line-height:24px;letter-spacing:-0.45px;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item{color:#000000;fill:#000000;padding-left:10px;padding-right:10px;padding-top:4px;padding-bottom:4px;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item:hover,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item.elementor-item-active,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item.highlighted,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item:focus{color:#FFFFFF;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item:before,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item:after{background-color:#000000;}.elementor-42 .elementor-element.elementor-element-130b05ce .e--pointer-framed .elementor-item:before,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .e--pointer-framed .elementor-item:after{border-color:#000000;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item.elementor-item-active{color:#000000;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item.elementor-item-active:before,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main:not(.e--pointer-framed) .elementor-item.elementor-item-active:after{background-color:#F8F3EF;}.elementor-42 .elementor-element.elementor-element-130b05ce .e--pointer-framed .elementor-item.elementor-item-active:before,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .e--pointer-framed .elementor-item.elementor-item-active:after{border-color:#F8F3EF;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main:not(.elementor-nav-menu--layout-horizontal) .elementor-nav-menu > li:not(:last-child){margin-bottom:40px;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown{background-color:#FFFFFF;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a:hover,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a:focus,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a.elementor-item-active,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a.highlighted,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle:hover,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle:focus{color:#FFFFFF;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a:hover,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a:focus,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a.elementor-item-active,
-					.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a.highlighted{background-color:#000000;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown .elementor-item, .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown  .elementor-sub-item{font-family:"Roboto", Sans-serif;font-size:14px;font-weight:300;text-transform:uppercase;font-style:normal;text-decoration:none;letter-spacing:1.53px;}.elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle{color:#000000;}.elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle svg{fill:#000000;}.elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:hover, .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:focus{color:#000000;}.elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:hover svg, .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:focus svg{fill:#000000;}.elementor-widget-button .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-weight:var( --e-global-typography-accent-font-weight );}.elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button{background-color:#000000;font-family:"Roboto", Sans-serif;font-size:14px;font-weight:300;text-transform:uppercase;font-style:normal;text-decoration:none;line-height:1.3em;letter-spacing:1.53px;fill:#FFFFFF;color:#FFFFFF;border-style:solid;border-width:1px 1px 1px 1px;border-color:#000000;border-radius:0px 0px 0px 0px;padding:15px 20px 15px 20px;}.elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button:hover, .elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button:focus{background-color:#FFFFFF00;color:#000000;}.elementor-42 .elementor-element.elementor-element-518b6c1f{width:auto;max-width:auto;}.elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button:hover svg, .elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button:focus svg{fill:#000000;}@media(max-width:1024px){.elementor-42 .elementor-element.elementor-element-36bc6f72{--gap:6% 6%;--row-gap:6%;--column-gap:6%;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main > .elementor-nav-menu > li > .elementor-nav-menu--dropdown, .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu__container.elementor-nav-menu--dropdown{margin-top:22px !important;}.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle{border-width:1px;border-radius:0px;}}@media(min-width:768px){.elementor-42 .elementor-element.elementor-element-543f2c7f{--width:627px;}.elementor-42 .elementor-element.elementor-element-36bc6f72{--width:90%;}}@media(max-width:1024px) and (min-width:768px){.elementor-42 .elementor-element.elementor-element-543f2c7f{--width:15%;}.elementor-42 .elementor-element.elementor-element-36bc6f72{--width:85%;}}@media(max-width:767px){.elementor-42 .elementor-element.elementor-element-543f2c7f{--width:30%;}.elementor-42 .elementor-element.elementor-element-6a805c3c img{width:85%;}.elementor-42 .elementor-element.elementor-element-36bc6f72{--width:70%;}.elementor-42 .elementor-element.elementor-element-518b6c1f{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 8px;}.elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button{padding:10px 10px 10px 10px;}}/* Start custom CSS for button, class: .elementor-element-518b6c1f *//* End custom CSS */</style>		<div data-elementor-type="wp-post" data-elementor-id="42" class="elementor elementor-42" data-elementor-post-type="elementor-hf">
-				<header class="elementor-element elementor-element-43ce6265 e-flex e-con-boxed e-con e-parent" data-id="43ce6265" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-543f2c7f e-con-full e-flex e-con e-child" data-id="543f2c7f" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-6a805c3c elementor-widget elementor-widget-image" data-id="6a805c3c" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-																<a href="https://theroninsiargao.com">
-							<img fetchpriority="high" width="1957" height="557" src="wp-content/uploads/2026/06/Logo-Updated.png" class="attachment-full size-full wp-image-374" alt="" srcset="wp-content/uploads/2026/06/Logo-Updated.png 1957w, wp-content/uploads/2026/06/Logo-Updated-300x85.png 300w, wp-content/uploads/2026/06/Logo-Updated-1024x291.png 1024w, wp-content/uploads/2026/06/Logo-Updated-768x219.png 768w, wp-content/uploads/2026/06/Logo-Updated-1536x437.png 1536w" sizes="(max-width: 1957px) 100vw, 1957px" />								</a>
-															</div>
+		<header class="site-header" id="masthead">
+			<div class="site-header__row">
+				<a href="https://theroninsiargao.com" class="site-header__logo">
+					<img fetchpriority="high" width="1957" height="557" src="wp-content/uploads/2026/06/Logo-Updated.png" srcset="wp-content/uploads/2026/06/Logo-Updated.png 1957w, wp-content/uploads/2026/06/Logo-Updated-300x85.png 300w, wp-content/uploads/2026/06/Logo-Updated-1024x291.png 1024w, wp-content/uploads/2026/06/Logo-Updated-768x219.png 768w, wp-content/uploads/2026/06/Logo-Updated-1536x437.png 1536w" sizes="(max-width: 1957px) 100vw, 1957px" alt="The Ronin Siargao">
+				</a>
+				<nav class="site-nav" aria-label="Primary">
+					<a href="#about" class="site-nav__link">About</a>
+					<a href="#rooms" class="site-nav__link">Room</a>
+					<a href="#amenities" class="site-nav__link">Amenities</a>
+					<a href="#gallery" class="site-nav__link">Gallery</a>
+					<a href="#faqs" class="site-nav__link">FAQ&#8217;S</a>
+				</nav>
+				<div class="site-header__actions">
+					<button type="button" class="js-book-now site-header__cta">Book now</button>
+					<button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Menu">
+						<span class="nav-toggle__bars"></span>
+					</button>
 				</div>
-		<div class="elementor-element elementor-element-36bc6f72 e-con-full e-flex e-con e-child" data-id="36bc6f72" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-130b05ce elementor-nav-menu--stretch elementor-widget__width-auto elementor-nav-menu__text-align-center elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="130b05ce" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
-								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-background e--animation-sweep-right">
-				<ul id="menu-1-130b05ce" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68"><a href="#about" class="elementor-item elementor-item-anchor menu-link">About</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69"><a href="#rooms" class="elementor-item elementor-item-anchor menu-link">Room</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70"><a href="#amenities" class="elementor-item elementor-item-anchor menu-link">Amenities</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a href="#gallery" class="elementor-item elementor-item-anchor menu-link">Gallery</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="#faqs" class="elementor-item elementor-item-anchor menu-link">FAQ&#8217;S</a></li>
-</ul>			</nav>
-					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
-			<svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg>		</div>
-					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-				<ul id="menu-2-130b05ce" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68"><a href="#about" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">About</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69"><a href="#rooms" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">Room</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70"><a href="#amenities" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">Amenities</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71"><a href="#gallery" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">Gallery</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-72"><a href="#faqs" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">FAQ&#8217;S</a></li>
-</ul>			</nav>
-						</div>
-				<div class="elementor-element elementor-element-518b6c1f elementor-widget__width-auto elementor-widget elementor-widget-button js-book-now" data-id="518b6c1f" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-size-sm" role="button">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Book now</span>
-					</span>
-					</a>
-								</div>
-				</div>
-					</div>
-				</header>
-				</div>
-				</header>
+			</div>
+			<nav id="mobile-nav" class="mobile-nav" aria-label="Mobile" hidden>
+				<a href="#about" class="mobile-nav__link">About</a>
+				<a href="#rooms" class="mobile-nav__link">Room</a>
+				<a href="#amenities" class="mobile-nav__link">Amenities</a>
+				<a href="#gallery" class="mobile-nav__link">Gallery</a>
+				<a href="#faqs" class="mobile-nav__link">FAQ&#8217;S</a>
+			</nav>
+		</header>
 
 		<div id="content" class="site-content">
 		<div class="ast-container">
-		
+
 
 	<div id="primary" class="content-area primary">
 
-		
+
 					<main id="main" class="site-main">
 				<article
 class="post-2 page type-page status-publish ast-article-single" id="post-2" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
-	
+
 				<header class="entry-header ast-no-thumbnail ast-no-title ast-header-without-markup">
 							</header> <!-- .entry-header -->
-		
+
 <div class="entry-content clear"
 	itemprop="text">
 
-	
+
 			<div data-elementor-type="wp-page" data-elementor-id="2" class="elementor elementor-2" data-elementor-post-type="page">
-						<section class="elementor-section elementor-top-section elementor-element elementor-element-3ab2cd12 elementor-section-stretched elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="3ab2cd12" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4fd6a6f" data-id="4fd6a6f" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-fc72f33 elementor-widget elementor-widget-heading" data-id="fc72f33" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h4 class="elementor-heading-title elementor-size-default">General Luna · Siargao Island, Philippines</h4>				</div>
-				<div class="elementor-element elementor-element-4077d80 elementor-widget elementor-widget-heading" data-id="4077d80" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h3 class="elementor-heading-title elementor-size-default">The Ronin</h3>				</div>
-				<div class="elementor-element elementor-element-ed98778 elementor-widget elementor-widget-heading" data-id="ed98778" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h3 class="elementor-heading-title elementor-size-default">Siargao</h3>				</div>
-				<div class="elementor-element elementor-element-0534ed7 elementor-widget elementor-widget-text-editor" data-id="0534ed7" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Your place to pause between island adventures.</p>								</div>
-					</div>
-		</div>
-					</div>
+		<section id="hero">
+			<div class="hero__inner">
+				<p class="hero__eyebrow">General Luna &middot; Siargao Island, Philippines</p>
+				<h1 class="hero__title">
+					<span class="hero__title-line hero__title-line--bold">The Ronin</span>
+					<span class="hero__title-line hero__title-line--light">Siargao</span>
+				</h1>
+				<p class="hero__tagline">Your place to pause between island adventures.</p>
+			</div>
 		</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-7c10c951 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7c10c951" data-element_type="section" data-e-type="section" id="about" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
@@ -954,9 +913,7 @@ We recommend booking ahead, particularly during weekends, holidays, and peak tra
 					document.head.appendChild( style );
 					document.currentScript?.remove();
 				} )();
-			</script><script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/astra-child/*","/wp-content/themes/astra/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
+			</script>
 
 <div id="ast-scroll-top" tabindex="0" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both">
 	<span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewbox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
@@ -1072,6 +1029,7 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
     <div id="bk-error" class="booking-error" hidden></div>
   </div>
 </div>
+<script src="assets/js/nav.js" defer></script>
 <script src="assets/js/booking.js" defer></script>
 <script src="assets/js/room-carousel.js" defer></script>
 <script src="assets/js/lightbox.js" defer></script>

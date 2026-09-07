@@ -349,14 +349,6 @@
 }
 #bk-availability-result { margin: 16px 0 0; color: #5a4e42; line-height: 1.5; }
 
-.elementor-2 .elementor-element.elementor-element-3ab2cd12::before {
-  position: absolute; inset: 0; z-index: 0;
-  background: linear-gradient(180deg, rgba(10, 16, 22, 0.32), rgba(10, 16, 22, 0.52));
-  content: ""; pointer-events: none;
-}
-.elementor-2 .elementor-element.elementor-element-3ab2cd12 > .elementor-container {
-  position: relative; z-index: 1;
-}
 @media (max-width: 600px) {
   .booking-modal { padding: 12px; }
   .booking-modal__panel { padding: 28px 22px; }
@@ -370,124 +362,252 @@
 }
 
 
-.elementor-2 .elementor-element.elementor-element-3ab2cd12 { position: relative; }
-
-
-
-/* Header redesign: warm editorial navigation with a quieter footprint. */
-.elementor-42 .elementor-element.elementor-element-43ce6265 {
-  min-height: 84px !important;
-  margin-bottom: -84px !important;
-  padding-left: clamp(20px, 5vw, 72px) !important;
-  padding-right: clamp(20px, 5vw, 72px) !important;
-  background: rgba(248, 241, 235, 0.94) !important;
+/* Header: warm editorial navigation with a quieter footprint, overlapping
+   the hero by its own height (min-height cancelled by an equal negative
+   margin so the next section is pulled up underneath it). */
+.site-header {
+  position: relative;
+  z-index: 50;
+  min-height: 84px;
+  margin-bottom: -84px;
+  padding-left: clamp(20px, 5vw, 72px);
+  padding-right: clamp(20px, 5vw, 72px);
+  background: rgba(248, 241, 235, 0.94);
   border-bottom: 1px solid rgba(45, 38, 32, 0.10);
   box-shadow: 0 8px 24px rgba(45, 38, 32, 0.06);
   backdrop-filter: blur(12px);
 }
-.elementor-42 .elementor-element.elementor-element-43ce6265 > .e-con-inner {
+.site-header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(12px, 2.1vw, 34px);
   width: min(100%, 1280px);
-  min-height: 84px !important;
+  min-height: 84px;
+  margin-inline: auto;
 }
-.elementor-42 .elementor-element.elementor-element-6a805c3c img {
-  width: 250px !important;
-  height: 72px !important;
+.site-header__logo img {
+  display: block;
+  width: 250px;
+  height: 72px;
+  object-fit: contain;
 }
-.elementor-42 .elementor-element.elementor-element-36bc6f72 {
-  gap: clamp(12px, 2.1vw, 34px) !important;
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(4px, 1vw, 16px);
 }
-.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item {
+.site-nav__link {
   position: relative;
-  padding: 9px 13px !important;
-  color: #2d2620 !important;
-  font-size: 13px !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.08em !important;
+  padding: 9px 13px;
+  color: #2d2620;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
   transition: color 180ms ease, background 180ms ease;
 }
-.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item::after {
+.site-nav__link::after {
   position: absolute;
   right: 13px;
   bottom: 3px;
   left: 13px;
   height: 1px;
-  background: #b8794e !important;
+  background: #b8794e;
   content: "";
   opacity: 0;
   transform: scaleX(0.35);
   transition: opacity 180ms ease, transform 180ms ease;
 }
-.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item:hover,
-.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item:focus,
-.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item.elementor-item-active {
-  color: #b8794e !important;
-  background: transparent !important;
+.site-nav__link:hover,
+.site-nav__link:focus {
+  color: #b8794e;
 }
-.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item:hover::after,
-.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item:focus::after,
-.elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item.elementor-item-active::after {
+.site-nav__link:hover::after,
+.site-nav__link:focus::after {
   opacity: 1;
   transform: scaleX(1);
 }
-.elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button {
-  padding: 14px 22px !important;
-  border: 1px solid #2d2620 !important;
-  border-radius: 999px !important;
-  background: #2d2620 !important;
-  color: #fff !important;
-  font-size: 12px !important;
-  font-weight: 600 !important;
-  letter-spacing: 0.12em !important;
+.site-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.site-header__cta {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #2d2620;
+  border-radius: 999px;
+  padding: 14px 22px;
+  background: #2d2620;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
   transition: background 180ms ease, color 180ms ease, transform 180ms ease;
 }
-.elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button:hover,
-.elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button:focus {
-  background: #b8794e !important;
-  border-color: #b8794e !important;
-  color: #fff !important;
+.site-header__cta:hover,
+.site-header__cta:focus {
+  background: #b8794e;
+  border-color: #b8794e;
+  color: #fff;
   transform: translateY(-1px);
 }
 
+/* Mobile nav toggle + dropdown panel, styled like the FAQ list. */
+.nav-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(45, 38, 32, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #2d2620;
+  cursor: pointer;
+  transition: background 180ms ease, border-color 180ms ease;
+}
+.nav-toggle__bars,
+.nav-toggle__bars::before,
+.nav-toggle__bars::after {
+  position: absolute;
+  width: 17px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 1px;
+  transition: transform 200ms ease, opacity 200ms ease, background 180ms ease;
+}
+.nav-toggle__bars {
+  display: block;
+  position: relative;
+}
+.nav-toggle__bars::before,
+.nav-toggle__bars::after {
+  content: "";
+  left: 0;
+}
+.nav-toggle__bars::before {
+  top: -6px;
+}
+.nav-toggle__bars::after {
+  top: 6px;
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle__bars {
+  background: transparent;
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle__bars::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+.nav-toggle[aria-expanded="true"] .nav-toggle__bars::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+.nav-toggle:hover,
+.nav-toggle:focus,
+.nav-toggle[aria-expanded="true"] {
+  background: #2d2620;
+  border-color: #2d2620;
+  color: #fff;
+}
+.mobile-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(251, 248, 244, 0.98);
+  border-top: 1px solid var(--ronin-line, rgba(45, 38, 32, 0.1));
+  box-shadow: 0 32px 40px -20px rgba(41, 35, 31, 0.4);
+  padding-bottom: 6px;
+}
+.mobile-nav[hidden] {
+  display: none;
+}
+.mobile-nav__link {
+  display: block;
+  padding: 13px 24px;
+  border-left: 3px solid transparent;
+  border-bottom: 1px solid var(--ronin-line, rgba(45, 38, 32, 0.08));
+  color: #2d2620;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 150ms ease, background 150ms ease, border-color 150ms ease;
+}
+.mobile-nav__link:last-child {
+  border-bottom: none;
+}
+.mobile-nav__link:hover,
+.mobile-nav__link:focus {
+  background: rgba(184, 121, 78, 0.08);
+  color: #b8794e;
+  border-left-color: #b8794e;
+}
+
 @media (max-width: 1024px) {
-  .elementor-42 .elementor-element.elementor-element-43ce6265,
-  .elementor-42 .elementor-element.elementor-element-43ce6265 > .e-con-inner {
-    min-height: 78px !important;
+  .site-header,
+  .site-header__row {
+    min-height: 78px;
   }
-  .elementor-42 .elementor-element.elementor-element-6a805c3c img {
-    width: 220px !important;
-    height: 64px !important;
+  .site-header__logo img {
+    width: 220px;
+    height: 64px;
   }
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--main .elementor-item {
-    padding-right: 9px !important;
-    padding-left: 9px !important;
-    font-size: 12px !important;
+  .site-nav {
+    display: none;
+  }
+  .nav-toggle {
+    display: flex;
   }
 }
 
 @media (max-width: 767px) {
-  .elementor-42 .elementor-element.elementor-element-43ce6265 {
-    min-height: 72px !important;
-    margin-bottom: -72px !important;
+  .site-header {
+    min-height: 72px;
+    margin-bottom: -72px;
   }
-  .elementor-42 .elementor-element.elementor-element-43ce6265 > .e-con-inner {
-    min-height: 72px !important;
+  .site-header__row {
+    min-height: 72px;
   }
-  .elementor-42 .elementor-element.elementor-element-6a805c3c img {
-    width: 180px !important;
-    height: 58px !important;
+  .site-header__logo img {
+    width: 180px;
+    height: 58px;
   }
-  .elementor-42 .elementor-element.elementor-element-518b6c1f .elementor-button {
-    padding: 11px 15px !important;
-    font-size: 10px !important;
+  .site-header__cta {
+    padding: 11px 15px;
+    font-size: 10px;
   }
 }
 
-
-@media (max-width: 767px) {
-  .elementor-42 .elementor-element.elementor-element-543f2c7f { --width: 42% !important; }
-  .elementor-42 .elementor-element.elementor-element-36bc6f72 { --width: 58% !important; }
+@media (max-width: 480px) {
+  .site-header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .site-header__row {
+    gap: 10px;
+  }
+  .site-header__logo img {
+    width: 148px;
+    height: 48px;
+  }
+  .site-header__actions {
+    gap: 8px;
+  }
+  .nav-toggle {
+    width: 38px;
+    height: 38px;
+  }
 }
-
 
 
 /* Full-page visual system */
@@ -528,36 +648,73 @@ body {
 }
 
 /* Hero */
-.elementor-2 .elementor-element.elementor-element-3ab2cd12 {
+#hero {
+  position: relative;
+  overflow: hidden;
   min-height: 720px;
-  padding: 150px 28px 96px !important;
-  background-position: center 58% !important;
+  padding: 150px 28px 96px;
+  background-color: #987860;
+  background-image: url("/wp-content/uploads/2026/06/Cover2.webp");
+  background-size: cover;
+  background-position: center 58%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.elementor-2 .elementor-element.elementor-element-3ab2cd12::before {
+#hero::before {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
   background:
     linear-gradient(180deg, rgba(15, 22, 26, 0.48), rgba(15, 22, 26, 0.12) 45%, rgba(15, 22, 26, 0.56)),
     linear-gradient(90deg, rgba(15, 22, 26, 0.24), transparent 65%);
+  content: "";
+  pointer-events: none;
 }
-.elementor-2 .elementor-element.elementor-element-fc72f33 .elementor-heading-title {
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 1280px);
+  margin-inline: auto;
+  text-align: center;
+}
+.hero__eyebrow {
+  margin: 0;
+  color: #fff;
+  font-family: "Red Hat Display", sans-serif;
   font-size: clamp(13px, 1.3vw, 18px);
+  font-weight: 600;
   line-height: 1.5;
   letter-spacing: 0.19em;
   word-spacing: 0.35em;
   text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(2, 5, 17, 0.68);
 }
-.elementor-2 .elementor-element.elementor-element-4077d80 .elementor-heading-title,
-.elementor-2 .elementor-element.elementor-element-ed98778 .elementor-heading-title {
-  font-family: "Nanum Myeongjo", Georgia, serif;
-  font-size: clamp(54px, 7vw, 96px);
-  line-height: 0.98;
+.hero__title {
+  margin: 0 !important;
+  color: #fff !important;
+  font-family: "Nanum Myeongjo", Georgia, serif !important;
+  font-size: clamp(54px, 7vw, 96px) !important;
+  line-height: 0.98 !important;
   letter-spacing: -0.045em;
-  word-spacing: 0;
   text-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
 }
-.elementor-2 .elementor-element.elementor-element-0534ed7 {
-  margin-top: 24px;
+.hero__title-line {
+  display: block;
+}
+.hero__title-line--bold {
+  font-weight: 600 !important;
+}
+.hero__title-line--light {
+  font-weight: 200 !important;
+}
+.hero__tagline {
+  margin: 24px 0 0;
+  color: #fff;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 18px;
   letter-spacing: 0.03em;
+  text-shadow: -1px 3px 0 rgba(6, 5, 32, 0.3);
 }
 
 /* Shared section rhythm */
@@ -801,12 +958,12 @@ body {
 
 /* Mobile composition */
 @media (max-width: 767px) {
-  .elementor-2 .elementor-element.elementor-element-3ab2cd12 {
+  #hero {
     min-height: 650px;
-    padding: 132px 20px 72px !important;
-    background-position: 62% center !important;
+    padding: 132px 20px 72px;
+    background-position: 62% center;
   }
-  .elementor-2 .elementor-element.elementor-element-0534ed7 {
+  .hero__tagline {
     font-size: 15px;
   }
   .elementor-2 .elementor-element.elementor-element-7c10c951,
@@ -885,74 +1042,4 @@ body {
 #rooms .elementor-element-4850778 .elementor-button-text::before { content: '\2197'; }
 
 
-/* Tablet/mobile nav: the toggle + dropdown were still Elementor's default
-   square, black-on-white look, clashing with the warm ink/paper/accent
-   palette used everywhere else in the header. Bring them into the same
-   language: a circular toggle and a dropdown styled like the FAQ list. */
-@media (max-width: 1024px) {
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle {
-    width: 44px !important;
-    height: 44px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    border: 1px solid rgba(45, 38, 32, 0.2) !important;
-    border-radius: 999px !important;
-    background: rgba(255, 255, 255, 0.5) !important;
-    transition: background 180ms ease, border-color 180ms ease;
-  }
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle svg {
-    width: 17px;
-    height: 17px;
-  }
-  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle,
-  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle svg {
-    color: #2d2620 !important;
-    fill: #2d2620 !important;
-  }
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle:hover,
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle:focus {
-    background: #2d2620 !important;
-    border-color: #2d2620 !important;
-  }
-  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:hover,
-  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:hover svg,
-  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:focus,
-  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:focus svg {
-    color: #fff !important;
-    fill: #fff !important;
-  }
-
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu__container.elementor-nav-menu--dropdown {
-    background: rgba(251, 248, 244, 0.98) !important;
-    border-top: 1px solid var(--ronin-line, rgba(45, 38, 32, 0.1));
-    box-shadow: 0 32px 40px -20px rgba(41, 35, 31, 0.4);
-    padding-bottom: 6px;
-  }
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown .elementor-nav-menu {
-    display: block;
-  }
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown li {
-    border-bottom: 1px solid var(--ronin-line, rgba(45, 38, 32, 0.08));
-  }
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown li:last-child {
-    border-bottom: none;
-  }
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown .elementor-item {
-    padding: 13px 24px !important;
-    border-left: 3px solid transparent;
-    color: #2d2620 !important;
-    font-weight: 500 !important;
-    letter-spacing: 0.1em !important;
-    transition: color 150ms ease, background 150ms ease, border-color 150ms ease;
-  }
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a:hover,
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a:focus,
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a.elementor-item-active,
-  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a.highlighted {
-    background: rgba(184, 121, 78, 0.08) !important;
-    color: #b8794e !important;
-    border-left-color: #b8794e;
-  }
-}
 
