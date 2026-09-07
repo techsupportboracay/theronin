@@ -1,0 +1,5 @@
+.env
+/vendor/
+/storage/*.json
+/storage/*.log
+*.log

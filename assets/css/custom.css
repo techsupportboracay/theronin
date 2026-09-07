@@ -1,0 +1,298 @@
+/* Custom styles for the PHP rebuild: booking modal, contact form notices.
+   Kept separate from the mirrored Elementor/Astra CSS so those files can stay untouched. */
+
+.site-notice {
+  max-width: 640px;
+  margin: 0 auto 24px;
+  padding: 14px 20px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.site-notice--success { background: #eef7ee; color: #1f6d2b; border: 1px solid #bfe3c2; }
+.site-notice--error { background: #fbecec; color: #9c1c1c; border: 1px solid #f0c2c2; }
+
+.booking-modal[hidden] {
+  display: none;
+}
+.booking-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.booking-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.booking-modal__panel {
+  position: relative;
+  background: #FAF8F4;
+  color: #000;
+  max-width: 480px;
+  width: calc(100% - 32px);
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 32px;
+  border-radius: 2px;
+  font-family: "Roboto", sans-serif;
+}
+.booking-modal__panel h2 {
+  margin: 0 0 20px;
+  font-family: "Roboto Slab", serif;
+  font-size: 22px;
+}
+.booking-modal__panel h3 {
+  font-family: "Roboto Slab", serif;
+}
+.booking-modal__close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  color: #000;
+}
+.booking-field-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.booking-field-row label,
+.booking-modal__panel > div > label,
+#bk-guest-form > label {
+  flex: 1;
+  display: block;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 14px;
+}
+.booking-modal__panel input,
+.booking-modal__panel textarea {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+#bk-check-availability,
+#bk-guest-form button[type="submit"] {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin-top: 4px;
+}
+#bk-availability-result { margin: 14px 0; font-size: 14px; }
+.booking-error { color: #9c1c1c; }
+.booking-success { color: #1f6d2b; }
+.booking-payment-note {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 12px 14px;
+  border-radius: 2px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+#bk-confirmation h3 { margin-top: 0; }
+
+/* The Astra theme's global `img{height:auto}` reset is an unlayered rule,
+   so it beats Tailwind's `h-full` utility (which lives in @layer utilities)
+   regardless of specificity - cascade layers ignore specificity entirely
+   between layered and unlayered rules. Override it directly here instead. */
+#room-carousel img {
+  height: 100%;
+}
+
+/* Gallery: plain static grid replacing the Elementor Pro "Gallery" widget,
+   which only renders via its own JS (not available outside WordPress). */
+.simple-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+@media (max-width: 1024px) {
+  .simple-gallery { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .simple-gallery { grid-template-columns: 1fr; }
+}
+.simple-gallery__item {
+  display: block;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+.simple-gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.simple-gallery__item:hover img {
+  transform: scale(1.05);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.85);
+}
+.lightbox.is-open {
+  display: flex;
+}
+.lightbox img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+}
+.lightbox__caption {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.lightbox__close {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  line-height: 1;
+  cursor: pointer;
+}
+.lightbox__prev,
+.lightbox__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 12px;
+}
+.lightbox__prev { left: 8px; }
+.lightbox__next { right: 8px; }
+
+/* Keep carousel controls independent of the theme's global button styles. */
+#room-carousel .room-carousel__prev,
+#room-carousel .room-carousel__next,
+#room-carousel .room-carousel__dot {
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+#room-carousel .room-carousel__prev,
+#room-carousel .room-carousel__next {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+  font-size: 24px;
+  line-height: 1;
+  opacity: 1;
+}
+
+#room-carousel .room-carousel__prev:hover,
+#room-carousel .room-carousel__next:hover {
+  background: #fff;
+}
+
+#room-carousel .room-carousel__dot {
+  flex: 0 0 8px;
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+#room-carousel .room-carousel__dot[class~="bg-white"],
+#room-carousel .room-carousel__dot:hover {
+  background: #fff;
+}
+
+#room-carousel button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px #2e2922;
+}
+
+
+/* Room photo previews sit below the carousel, outside its clipped viewport. */
+#room-carousel-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#room-carousel-thumbnails .room-carousel__thumbnail {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  aspect-ratio: 4 / 3;
+  margin: 0;
+  padding: 3px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  appearance: none;
+  opacity: 0.65;
+  transition: opacity 150ms ease, border-color 150ms ease;
+}
+
+#room-carousel-thumbnails .room-carousel__thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#room-carousel-thumbnails .room-carousel__thumbnail:hover,
+#room-carousel-thumbnails .room-carousel__thumbnail[aria-pressed="true"] {
+  opacity: 1;
+  border-color: #2e2922;
+}
+
+#room-carousel-thumbnails .room-carousel__thumbnail:focus-visible {
+  opacity: 1;
+  outline: 2px solid #2e2922;
+  outline-offset: 2px;
+}
