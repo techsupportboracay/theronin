@@ -37,7 +37,7 @@ jobs:
           install -d -m 700 ~/.ssh
           printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/dreamhost_deploy
           chmod 600 ~/.ssh/dreamhost_deploy
-          ssh-keyscan -p "$DREAMHOST_PORT" -H "$DREAMHOST_HOST" >> ~/.ssh/known_hosts
+          ssh-keyscan -4 -p "$DREAMHOST_PORT" -H "$DREAMHOST_HOST" >> ~/.ssh/known_hosts
 
       - name: Upload release
         run: |
