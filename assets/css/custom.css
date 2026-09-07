@@ -752,3 +752,55 @@ body {
   white-space: nowrap;
 }
 
+
+
+/* Compact room actions and section rhythm */
+#rooms {
+  padding-top: 72px !important;
+  padding-bottom: 76px !important;
+}
+#amenities {
+  padding-top: 72px !important;
+  padding-bottom: 88px !important;
+}
+#rooms .elementor-element-ffa5f83 {
+  margin-top: 22px !important;
+}
+#rooms .elementor-element-4850778 .elementor-button {
+  width: auto !important;
+  min-width: 138px !important;
+  white-space: nowrap !important;
+}
+#rooms .elementor-element-4850778 .elementor-button-content-wrapper,
+#rooms .elementor-element-4850778 .elementor-button-text {
+  display: inline-flex !important;
+  align-items: center;
+  flex-wrap: nowrap !important;
+  white-space: nowrap !important;
+}
+#rooms .elementor-element-4850778 .elementor-button-text::before {
+  content: "?";
+  display: inline-block;
+  margin-right: 9px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1;
+  transform: translateY(-1px);
+}
+@media (max-width: 767px) {
+  #rooms {
+    padding-top: 56px !important;
+    padding-bottom: 60px !important;
+  }
+  #amenities {
+    padding-top: 56px !important;
+    padding-bottom: 64px !important;
+  }
+  #rooms .elementor-element-ffa5f83 {
+    margin-top: 14px !important;
+  }
+}
+
+
+#rooms .elementor-element-4850778 .elementor-button-text::before { content: '\2197'; }
+
