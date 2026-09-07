@@ -60,9 +60,7 @@ while ($cursor < $out) {
     $totalPrice += (float) ($info['price1'] ?? 0);
     $cursor->modify('+1 day');
 }
-$deposit = round($totalPrice * 0.10, 2);
-
-$bookingNotes = "Payment method: Bank Transfer (awaiting proof of payment). Deposit due: PHP $deposit of PHP $totalPrice total.";
+$bookingNotes = "Payment method: Bank Transfer (awaiting proof of payment). Full payment due: PHP $totalPrice.";
 if ($notes !== '') {
     $bookingNotes .= "\nGuest notes: $notes";
 }
@@ -78,7 +76,7 @@ $booking = $client->createBooking([
     'email' => $email,
     'phone' => $phone,
     'price' => $totalPrice,
-    'deposit' => $deposit,
+    'deposit' => $totalPrice,
     'notes' => $bookingNotes,
 ]);
 
@@ -101,7 +99,6 @@ $bankAccountName = env('BANK_ACCOUNT_NAME', '');
 $bankAccountNumber = env('BANK_ACCOUNT_NUMBER', '');
 $bankSwift = env('BANK_SWIFT', '');
 $reference = $booking['id'] ?? 'pending';
-$balanceDue = round($totalPrice - $deposit, 2);
 $whatsapp = env('WHATSAPP_NUMBER');
 
 $guestBody = <<<TXT
@@ -113,10 +110,9 @@ Check-in: $checkin
 Check-out: $checkout
 Guests: $guests
 Total: PHP $totalPrice
-Deposit due now: PHP $deposit (balance of PHP $balanceDue due at the property)
 Booking reference: $reference
 
-To confirm your reservation, please send the deposit via bank transfer:
+Full payment is required to confirm your reservation. Please send PHP $totalPrice via bank transfer:
 Bank: $bankName
 Account name: $bankAccountName
 Account number: $bankAccountNumber
@@ -134,7 +130,7 @@ if ($notifyEmail) {
     $ownerBody = "New booking request (Beds24 ref: $reference)\n\n"
         . "Guest: $firstName $lastName\nEmail: $email\nPhone: $phone\n"
         . "Check-in: $checkin\nCheck-out: $checkout\nGuests: $guests\n"
-        . "Total: PHP $totalPrice | Deposit due: PHP $deposit\n"
+        . "Total: PHP $totalPrice (full payment required)\n"
         . ($notes !== '' ? "Notes: $notes\n" : '');
     send_mail($notifyEmail, 'New booking request - The Ronin Siargao', $ownerBody, $email);
 }
@@ -143,6 +139,5 @@ echo json_encode([
     'ok' => true,
     'reference' => $reference,
     'totalPrice' => $totalPrice,
-    'depositDue' => $deposit,
-    'balanceDue' => $balanceDue,
+    'amountDue' => $totalPrice,
 ]);

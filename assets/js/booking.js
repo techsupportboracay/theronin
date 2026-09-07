@@ -88,8 +88,7 @@
         availabilityResult.innerHTML =
           '<p class="booking-success">Available! ' + data.nights + ' night(s) - Total ' + money(data.totalPrice) + '</p>';
         paymentNote.innerHTML =
-          '<strong>Deposit due now:</strong> ' + money(data.depositDue) +
-          ' (10%) via bank transfer.<br><strong>Balance due at property:</strong> ' + money(data.balanceDue);
+          '<strong>Full payment due now:</strong> ' + money(data.amountDue) + ' via bank transfer.';
         checkinConfirmed.value = checkin;
         checkoutConfirmed.value = checkout;
         guestForm.hidden = false;
@@ -136,7 +135,7 @@
         confirmation.hidden = false;
         confirmation.innerHTML =
           '<h3>Request received!</h3><p>Booking reference: <strong>' + data.reference + '</strong></p>' +
-          '<p>We\'ve emailed you bank transfer details for the deposit of ' + money(data.depositDue) +
+          '<p>We\'ve emailed you bank transfer details for the full payment of ' + money(data.amountDue) +
           '. Your stay will be confirmed once we receive it.</p>';
       })
       .catch(function () {

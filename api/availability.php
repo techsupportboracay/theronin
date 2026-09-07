@@ -75,14 +75,11 @@ if (count($nights) < $minStayRequired) {
     exit;
 }
 
-$deposit = round($totalPrice * 0.10, 2);
-
 echo json_encode([
     'ok' => true,
     'available' => true,
     'nights' => count($nights),
     'currency' => 'PHP',
     'totalPrice' => $totalPrice,
-    'depositDue' => $deposit,
-    'balanceDue' => round($totalPrice - $deposit, 2),
+    'amountDue' => $totalPrice,
 ]);
