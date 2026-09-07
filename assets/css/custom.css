@@ -718,14 +718,10 @@ body {
 }
 
 /* Shared section rhythm */
-.elementor-2 .elementor-element.elementor-element-253b16b2,
 .elementor-2 .elementor-element.elementor-element-5ec35fd6,
 .elementor-2 .elementor-element.elementor-element-3e0fb250,
 .elementor-2 .elementor-element.elementor-element-6a42da53 {
   padding: clamp(82px, 9vw, 144px) clamp(22px, 5vw, 72px) !important;
-}
-.elementor-2 .elementor-element.elementor-element-253b16b2 {
-  background: var(--ronin-paper) !important;
 }
 .elementor-2 .elementor-element.elementor-element-6a42da53 {
   background: var(--ronin-sand) !important;
@@ -848,7 +844,6 @@ body {
 }
 
 /* Editorial headings */
-.elementor-2 .elementor-element.elementor-element-1546df1f .elementor-heading-title,
 .elementor-2 .elementor-element.elementor-element-83180cd .elementor-heading-title,
 .elementor-2 .elementor-element.elementor-element-290d8f9c .elementor-heading-title {
   max-width: 720px;
@@ -950,10 +945,6 @@ body {
   transform: scale(1.045);
 }
 
-/* Room and amenity detail */
-#amenities .elementor-widget-text-editor {
-  color: var(--ronin-muted);
-}
 #contact .elementor-button {
   border-radius: 999px !important;
   padding: 14px 24px !important;
@@ -966,18 +957,48 @@ body {
   background: var(--ronin-accent) !important;
 }
 
-/* Amenities card-like grid */
-#amenities .elementor-icon-box-wrapper {
-  padding: 20px 0;
-  border-bottom: 1px solid var(--ronin-line);
+/* Amenities */
+#amenities {
+  padding: 72px clamp(22px, 5vw, 72px) 88px;
+  background: var(--ronin-paper);
 }
-#amenities .elementor-icon-box-title {
-  color: var(--ronin-ink) !important;
-  font-size: 16px !important;
+@media (max-width: 767px) {
+  #amenities {
+    padding: 56px 20px 64px;
+  }
 }
-#amenities .elementor-icon-box-description {
-  color: var(--ronin-muted) !important;
+.amenities__kicker {
+  margin: 0;
+  color: var(--ronin-muted);
+  font-size: 16px;
+}
+.amenities__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 40px;
+}
+.amenities__title {
+  margin: 0 0 8px;
+  color: var(--ronin-ink);
+  font-size: 16px;
+  font-weight: 700;
+}
+.amenities__item p:last-child {
+  margin: 0;
+  color: var(--ronin-muted);
   line-height: 1.7;
+}
+@media (max-width: 1024px) {
+  .amenities__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+@media (max-width: 600px) {
+  .amenities__grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Contact / booking section */
@@ -1120,7 +1141,6 @@ body {
   .hero__tagline {
     font-size: 15px;
   }
-  .elementor-2 .elementor-element.elementor-element-253b16b2,
   .elementor-2 .elementor-element.elementor-element-5ec35fd6,
   .elementor-2 .elementor-element.elementor-element-3e0fb250,
   .elementor-2 .elementor-element.elementor-element-6a42da53 {
@@ -1132,19 +1152,6 @@ body {
   #contact .elementor-form,
   #contact .frm_forms {
     padding: 22px 18px;
-  }
-}
-
-
-/* Compact section rhythm */
-#amenities {
-  padding-top: 72px !important;
-  padding-bottom: 88px !important;
-}
-@media (max-width: 767px) {
-  #amenities {
-    padding-top: 56px !important;
-    padding-bottom: 64px !important;
   }
 }
 

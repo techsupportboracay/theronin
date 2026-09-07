@@ -302,47 +302,30 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 						</div>
 					</div>
 				</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-253b16b2 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="253b16b2" data-element_type="section" data-e-type="section" id="amenities" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ff1d7f9" data-id="3ff1d7f9" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-				<div class="elementor-element elementor-element-60f029b e-flex e-con-boxed e-con e-parent" data-id="60f029b" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-a1fcb90 elementor-widget elementor-widget-text-editor" data-id="a1fcb90" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>03 / Property &amp; Nearby Attractions</p>								</div>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-1546df1f elementor-widget elementor-widget-heading" data-id="1546df1f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Everything you need,<br>nothing you don't.</h2>				</div>
-				<div class="elementor-element elementor-element-a174c67 elementor-widget elementor-widget-spacer" data-id="a174c67" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
+				<section id="amenities" class="site-section">
+					<div class="site-section__row">
+						<p class="amenities__kicker">03 / Property &amp; Nearby Attractions</p>
+						<h2 class="section-heading">Everything you need,<br>nothing you don't.</h2>
+						<div class="amenities__grid">
+							<div class="amenities__item">
+								<p class="amenities__title">On-Site Restaurant</p>
+								<p>A dining experience rooted in tradition and inspired by innovation, transforming Siargao&rsquo;s freshest local harvests into bold, memorable flavors.</p>
+							</div>
+							<div class="amenities__item">
+								<p class="amenities__title">On-Site Parking</p>
+								<p>Guests can enjoy the convenience of on-site parking, providing easy and secure access to the property throughout their stay.</p>
+							</div>
+							<div class="amenities__item">
+								<p class="amenities__title">Surfing Beach</p>
+								<p>The property is not directly on the beachfront, but it is conveniently located just a 3&ndash;5-minute motorbike ride or a pleasant 10-minute walk from the main surf beaches and the famous Cloud 9 surfing spot.</p>
+							</div>
+							<div class="amenities__item">
+								<p class="amenities__title">Caf&eacute; Hopping</p>
+								<p>Explore General Luna&rsquo;s vibrant caf&eacute; scene, where laid-back coffee shops, stylish brunch spots, and dessert caf&eacute;s are all just a short distance away.</p>
+							</div>
 						</div>
-		<div class="elementor-element elementor-element-e5d1a0a e-flex e-con-boxed e-con e-parent" data-id="e5d1a0a" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-6b88401 e-con-full e-flex e-con e-child" data-id="6b88401" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-ca6c86a elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="ca6c86a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p><strong>On-Site Restaurant</strong></p><p>A dining experience rooted in tradition and inspired by innovation, transforming Siargao’s freshest local harvests into bold, memorable flavors.</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-86f1481 e-con-full e-flex e-con e-child" data-id="86f1481" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-c18959e elementor-widget elementor-widget-text-editor" data-id="c18959e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p><strong>On-Site Parking</strong></p><p>Guests can enjoy the convenience of on-site parking, providing easy and secure access to the property throughout their stay.</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-4bf0b41 e-con-full e-flex e-con e-child" data-id="4bf0b41" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-b867c9c elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="b867c9c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p><strong>Surfing Beach</strong></p><p>The property is not directly on the beachfront, but it is conveniently located just a 3–5-minute motorbike ride or a pleasant 10-minute walk from the main surf beaches and the famous Cloud 9 surfing spot.</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-73253ad e-con-full e-flex e-con e-child" data-id="73253ad" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-24cc03b elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="24cc03b" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p><strong data-start="0" data-end="16" data-is-only-node="">Café Hopping</strong></p><p>Explore General Luna’s vibrant café scene, where laid-back coffee shops, stylish brunch spots, and dessert cafés are all just a short distance away.</p>								</div>
-				</div>
 					</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
+				</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-5ec35fd6 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ec35fd6" data-element_type="section" data-e-type="section" id="gallery" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-576d7764" data-id="576d7764" data-element_type="column" data-e-type="column">
