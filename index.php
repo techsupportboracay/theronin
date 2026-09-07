@@ -7,7 +7,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11"> 
 	<title>The Ronin Siargao</title>
 <meta name='robots' content='max-image-preview:large' />
-<link rel='stylesheet' href='assets/css/custom.css' media='all' />
+<link rel='stylesheet' href='assets/css/custom.css?v=2f86777' media='all' />
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
   // Preflight is disabled because it globally resets margins/headings/lists,
