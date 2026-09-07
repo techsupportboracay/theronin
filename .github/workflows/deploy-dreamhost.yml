@@ -44,7 +44,7 @@ jobs:
           scp -i ~/.ssh/dreamhost_deploy \
             -P "$DREAMHOST_PORT" \
             /tmp/theronin-deploy.tar.gz \
-            "$DREAMHOST_USER@$DREAMHOST_HOST:/home/$DREAMHOST_USER/"
+            "$DREAMHOST_USER@$DREAMHOST_HOST:/home/$DREAMHOST_USER/deploy.tar.gz"
 
       - name: Activate release
         run: |
