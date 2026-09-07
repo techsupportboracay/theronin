@@ -1071,5 +1071,6 @@ var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof H
 <script src="assets/js/booking.js" defer></script>
 <script src="assets/js/room-carousel.js" defer></script>
 <script src="assets/js/lightbox.js" defer></script>
+<script src="assets/js/faq-accordion.js" defer></script>
 </body>
 </html>

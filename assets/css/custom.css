@@ -884,3 +884,75 @@ body {
 
 #rooms .elementor-element-4850778 .elementor-button-text::before { content: '\2197'; }
 
+
+/* Tablet/mobile nav: the toggle + dropdown were still Elementor's default
+   square, black-on-white look, clashing with the warm ink/paper/accent
+   palette used everywhere else in the header. Bring them into the same
+   language: a circular toggle and a dropdown styled like the FAQ list. */
+@media (max-width: 1024px) {
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle {
+    width: 44px !important;
+    height: 44px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid rgba(45, 38, 32, 0.2) !important;
+    border-radius: 999px !important;
+    background: rgba(255, 255, 255, 0.5) !important;
+    transition: background 180ms ease, border-color 180ms ease;
+  }
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle svg {
+    width: 17px;
+    height: 17px;
+  }
+  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle,
+  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle svg {
+    color: #2d2620 !important;
+    fill: #2d2620 !important;
+  }
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle:hover,
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-menu-toggle:focus {
+    background: #2d2620 !important;
+    border-color: #2d2620 !important;
+  }
+  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:hover,
+  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:hover svg,
+  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:focus,
+  .elementor-42 .elementor-element.elementor-element-130b05ce div.elementor-menu-toggle:focus svg {
+    color: #fff !important;
+    fill: #fff !important;
+  }
+
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu__container.elementor-nav-menu--dropdown {
+    background: rgba(251, 248, 244, 0.98) !important;
+    border-top: 1px solid var(--ronin-line, rgba(45, 38, 32, 0.1));
+    box-shadow: 0 32px 40px -20px rgba(41, 35, 31, 0.4);
+    padding-bottom: 6px;
+  }
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown .elementor-nav-menu {
+    display: block;
+  }
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown li {
+    border-bottom: 1px solid var(--ronin-line, rgba(45, 38, 32, 0.08));
+  }
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown li:last-child {
+    border-bottom: none;
+  }
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown .elementor-item {
+    padding: 13px 24px !important;
+    border-left: 3px solid transparent;
+    color: #2d2620 !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.1em !important;
+    transition: color 150ms ease, background 150ms ease, border-color 150ms ease;
+  }
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a:hover,
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a:focus,
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a.elementor-item-active,
+  .elementor-42 .elementor-element.elementor-element-130b05ce .elementor-nav-menu--dropdown a.highlighted {
+    background: rgba(184, 121, 78, 0.08) !important;
+    color: #b8794e !important;
+    border-left-color: #b8794e;
+  }
+}
+
