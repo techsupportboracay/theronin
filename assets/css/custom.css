@@ -746,3 +746,9 @@ body {
   }
 }
 
+
+#rooms .elementor-element-4850778 .elementor-button {
+  min-width: 126px;
+  white-space: nowrap;
+}
+

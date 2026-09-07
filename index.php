@@ -335,7 +335,7 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 		<div class="elementor-element elementor-element-ffa5f83 e-flex e-con-boxed e-con e-parent" data-id="ffa5f83" data-element_type="container" data-e-type="container">
 					<div class="e-con-inner">
 		<div class="elementor-element elementor-element-a3b36b0 e-con-full e-flex e-con e-child" data-id="a3b36b0" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4850778 elementor-widget elementor-widget-button" data-id="4850778" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-element elementor-element-4850778 elementor-widget elementor-widget-button js-book-now" data-id="4850778" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 										<a class="elementor-button elementor-button-link elementor-size-sm" href="#contact">
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">Book Now</span>
