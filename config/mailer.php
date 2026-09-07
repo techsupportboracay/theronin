@@ -28,7 +28,19 @@ function send_mail(string $to, string $subject, string $body, ?string $replyTo =
         return false;
     }
 
-    $read = fn() => fgets($socket, 512);
+    // SMTP replies can span multiple lines (code+"-" continues, code+" " ends);
+    // read until the final line so a multi-line EHLO doesn't leave bytes
+    // sitting in the buffer that desync the next command (and corrupt STARTTLS).
+    $read = function () use ($socket) {
+        $line = '';
+        do {
+            $line = fgets($socket, 512);
+            if ($line === false) {
+                return '';
+            }
+        } while (isset($line[3]) && $line[3] === '-');
+        return $line;
+    };
     $write = function (string $cmd) use ($socket) { fwrite($socket, $cmd . "\r\n"); };
 
     $read();
