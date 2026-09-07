@@ -239,79 +239,38 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 						</div>
 					</div>
 				</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-a3cee83 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a3cee83" data-element_type="section" data-e-type="section" id="rooms" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-643d296b" data-id="643d296b" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-				<div class="elementor-element elementor-element-7dbaf6f e-flex e-con-boxed e-con e-parent" data-id="7dbaf6f" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-3ae8c51 elementor-widget elementor-widget-text-editor" data-id="3ae8c51" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>02 / The Room</p>								</div>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-15cb227e elementor-widget elementor-widget-heading" data-id="15cb227e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Double Room</h2>				</div>
-				<div class="elementor-element elementor-element-2884d150 elementor-widget elementor-widget-html" data-id="2884d150" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-					<p style="font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#8a7760;font-family:'DM Sans',sans-serif;font-weight:400;margin-bottom:16px;">Up to 2 Guests</p>				</div>
-				<div class="elementor-element elementor-element-7743415d elementor-widget elementor-widget-text-editor" data-id="7743415d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>The Ronin Siargao is more than a place to stay. It is a base for living, working, and exploring the island your way.</p><p>Designed for digital nomads, independent travelers, surfers, and long-stay guests, our rooms combine comfort, convenience, and flexibility. Our location puts you within easy reach of Siargao’s dining, surfing, and social destinations, making it simple to balance focused work with relaxed island living.</p><p>Inspired by the freedom and self-direction of the ronin, The Ronin is for travelers who choose their own path and move at their own pace.</p>								</div>
-		<div class="elementor-element elementor-element-61ed787 e-flex e-con-boxed e-con e-parent" data-id="61ed787" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-8da483d elementor-widget elementor-widget-text-editor" data-id="8da483d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Room Amenities </p>								</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-6d2f569 e-flex e-con-boxed e-con e-parent" data-id="6d2f569" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-53171d6 e-con-full e-flex e-con e-child" data-id="53171d6" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-751f6ed elementor-widget elementor-widget-text-editor" data-id="751f6ed" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Air conditioning</p>								</div>
-				<div class="elementor-element elementor-element-e6f868d elementor-widget elementor-widget-text-editor" data-id="e6f868d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Private bathroom</p>								</div>
-				<div class="elementor-element elementor-element-5669e19 elementor-widget elementor-widget-text-editor" data-id="5669e19" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Flat-screen TV</p>								</div>
-				<div class="elementor-element elementor-element-d095c34 elementor-widget elementor-widget-text-editor" data-id="d095c34" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Fresh towels provided</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-b1412b7 e-con-full e-flex e-con e-child" data-id="b1412b7" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4fd080f elementor-widget elementor-widget-text-editor" data-id="4fd080f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Cozy seating area</p>								</div>
-				<div class="elementor-element elementor-element-ffb7938 elementor-widget elementor-widget-text-editor" data-id="ffb7938" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Free Wi-Fi </p>								</div>
-				<div class="elementor-element elementor-element-2f5eb21 elementor-widget elementor-widget-text-editor" data-id="2f5eb21" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Hot and cold shower</p>								</div>
-				<div class="elementor-element elementor-element-27b0005 elementor-widget elementor-widget-text-editor" data-id="27b0005" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>Clothing Storage</p>								</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-ffa5f83 e-flex e-con-boxed e-con e-parent" data-id="ffa5f83" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-a3b36b0 e-con-full e-flex e-con e-child" data-id="a3b36b0" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4850778 elementor-widget elementor-widget-button js-book-now" data-id="4850778" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="#contact">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Book Now</span>
-					</span>
-					</a>
-								</div>
-				</div>
-		<div class="elementor-element elementor-element-523d4bd e-con-full e-flex e-con e-child" data-id="523d4bd" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-bd77b11 elementor-align-left elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="bd77b11" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-										<a class="elementor-button elementor-button-link elementor-size-sm" href="#contact">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">INQUIRE</span>
-					</span>
-					</a>
-								</div>
-				</div>
-					</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-31f37c47" data-id="31f37c47" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-bad1fc7 elementor-widget" data-id="bad1fc7">
+				<section id="rooms" class="site-section">
+					<div class="site-section__row room-section__row">
+						<div class="room-section__content">
+							<p class="section-label">02 / The Room</p>
+							<h2 class="section-heading">Double Room</h2>
+							<p class="room__guests">Up to 2 Guests</p>
+							<div class="room__copy">
+								<p>The Ronin Siargao is more than a place to stay. It is a base for living, working, and exploring the island your way.</p>
+								<p>Designed for digital nomads, independent travelers, surfers, and long-stay guests, our rooms combine comfort, convenience, and flexibility. Our location puts you within easy reach of Siargao&rsquo;s dining, surfing, and social destinations, making it simple to balance focused work with relaxed island living.</p>
+								<p>Inspired by the freedom and self-direction of the ronin, The Ronin is for travelers who choose their own path and move at their own pace.</p>
+							</div>
+							<p class="section-label room__amenities-label">Room Amenities</p>
+							<div class="room__amenities">
+								<ul class="room__amenities-col">
+									<li>Air conditioning</li>
+									<li>Private bathroom</li>
+									<li>Flat-screen TV</li>
+									<li>Fresh towels provided</li>
+								</ul>
+								<ul class="room__amenities-col">
+									<li>Cozy seating area</li>
+									<li>Free Wi-Fi</li>
+									<li>Hot and cold shower</li>
+									<li>Clothing Storage</li>
+								</ul>
+							</div>
+							<div class="room__actions">
+								<a href="#contact" class="js-book-now btn btn--arrow">Book Now</a>
+								<a href="#contact" class="btn">INQUIRE</a>
+							</div>
+						</div>
+						<div class="room-section__media">
 							<div id="room-carousel" class="relative w-full h-[400px] sm:h-[500px] lg:h-[613px] overflow-hidden mb-2.5 group">
 								<div class="room-carousel__track flex h-full transition-transform duration-500 ease-out">
 									<a href="wp-content/uploads/2026/06/10RoninRoom1.webp" class="js-lightbox flex-none w-full h-full" data-group="room" data-title="Double Room">
@@ -341,15 +300,8 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 								</div>
 							</div>
 						</div>
-				<div class="elementor-element elementor-element-421da54d elementor-widget elementor-widget-spacer" data-id="421da54d" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
 					</div>
-		</div>
-					</div>
-		</section>
+				</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-253b16b2 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="253b16b2" data-element_type="section" data-e-type="section" id="amenities" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ff1d7f9" data-id="3ff1d7f9" data-element_type="column" data-e-type="column">
