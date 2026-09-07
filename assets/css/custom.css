@@ -569,11 +569,11 @@ body {
 .elementor-2 .elementor-element.elementor-element-6a42da53 {
   padding: clamp(82px, 9vw, 144px) clamp(22px, 5vw, 72px) !important;
 }
-.elementor-2 .elementor-element.elementor-element-7c10c951 {
+.elementor-2 .elementor-element.elementor-element-7c10c951,
+.elementor-2 .elementor-element.elementor-element-253b16b2 {
   background: var(--ronin-paper) !important;
 }
 .elementor-2 .elementor-element.elementor-element-a3cee83,
-.elementor-2 .elementor-element.elementor-element-253b16b2,
 .elementor-2 .elementor-element.elementor-element-6a42da53 {
   background: var(--ronin-sand) !important;
 }
