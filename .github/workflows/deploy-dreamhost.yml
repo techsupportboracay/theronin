@@ -1,0 +1,70 @@
+name: Deploy to DreamHost
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dreamhost-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      DREAMHOST_HOST: ${{ secrets.DREAMHOST_HOST }}
+      DREAMHOST_PORT: ${{ secrets.DREAMHOST_PORT || '22' }}
+      DREAMHOST_USER: ${{ secrets.DREAMHOST_USER }}
+      DREAMHOST_PATH: ${{ secrets.DREAMHOST_PATH }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Create deployment archive
+        run: |
+          tar \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='storage/*.json' \
+            --exclude='storage/*.log' \
+            -czf deploy.tar.gz .
+
+      - name: Configure SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DREAMHOST_SSH_PRIVATE_KEY }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/dreamhost_deploy
+          chmod 600 ~/.ssh/dreamhost_deploy
+          ssh-keyscan -p "$DREAMHOST_PORT" -H "$DREAMHOST_HOST" >> ~/.ssh/known_hosts
+
+      - name: Upload release
+        run: |
+          scp -i ~/.ssh/dreamhost_deploy \
+            -P "$DREAMHOST_PORT" \
+            deploy.tar.gz \
+            "$DREAMHOST_USER@$DREAMHOST_HOST:/home/$DREAMHOST_USER/"
+
+      - name: Activate release
+        run: |
+          ssh -i ~/.ssh/dreamhost_deploy \
+            -p "$DREAMHOST_PORT" \
+            "$DREAMHOST_USER@$DREAMHOST_HOST" \
+            "set -eu
+             test -d '$DREAMHOST_PATH'
+             mkdir -p '/home/$DREAMHOST_USER/backups'
+             backup_name=\"/home/$DREAMHOST_USER/backups/theroninsiargao-before-\$(date +%Y%m%d-%H%M%S).tar.gz\"
+             tar -czf \"\$backup_name\" -C '$DREAMHOST_PATH' .
+             tar -xzf '/home/$DREAMHOST_USER/deploy.tar.gz' -C '$DREAMHOST_PATH'
+             rm -f '/home/$DREAMHOST_USER/deploy.tar.gz'
+             php -l '$DREAMHOST_PATH/index.php'"
+
+      - name: Remove temporary key
+        if: always()
+        run: rm -f ~/.ssh/dreamhost_deploy
