@@ -682,6 +682,10 @@ body {
   background: var(--ronin-line);
   content: "";
 }
+#contact .elementor-element-51c6f731 > .elementor-element-populated,
+#contact .elementor-element-51c6f731 > .elementor-widget-wrap {
+  padding-left: 40px;
+}
 #contact .elementor-form,
 #contact .frm_forms {
   padding: clamp(24px, 4vw, 48px);
@@ -705,18 +709,94 @@ body {
 }
 
 /* FAQ refinement */
-#faqs .elementor-accordion-item {
-  border-color: var(--ronin-line) !important;
+#faqs .elementor-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
-#faqs .elementor-tab-title {
-  padding: 22px 0 !important;
-  font-size: 17px;
-  font-weight: 600 !important;
+#faqs .elementor-accordion-item {
+  border: 1px solid var(--ronin-line) !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.55);
+  transition: border-color 260ms ease, box-shadow 260ms ease;
+}
+#faqs .elementor-accordion-item + .elementor-accordion-item {
+  border-block-start: 1px solid var(--ronin-line) !important;
+}
+#faqs .elementor-accordion-item:hover {
+  border-color: rgba(174, 112, 76, 0.45) !important;
+  box-shadow: 0 16px 36px rgba(41, 35, 31, 0.07);
 }
 #faqs .elementor-tab-content {
-  padding: 0 0 22px !important;
+  border-block-start: none !important;
+}
+#faqs .elementor-tab-title {
+  display: flex !important;
+  align-items: center;
+  padding: 24px 28px !important;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
+  color: var(--ronin-ink);
+  transition: color 220ms ease;
+}
+#faqs .elementor-tab-title:hover,
+#faqs .elementor-tab-title.elementor-active {
+  color: var(--ronin-accent);
+}
+#faqs .elementor-accordion-icon {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 28px !important;
+  height: 28px;
+  margin-inline-end: 16px;
+  border: 1px solid var(--ronin-line);
+  border-radius: 50%;
+  flex-shrink: 0;
+  transition: border-color 220ms ease, background 220ms ease;
+}
+#faqs .elementor-tab-title.elementor-active .elementor-accordion-icon {
+  background: var(--ronin-accent);
+  border-color: var(--ronin-accent);
+}
+#faqs .elementor-tab-title.elementor-active .elementor-accordion-icon svg {
+  fill: #fff !important;
+}
+#faqs .elementor-accordion-icon svg {
+  width: 11px !important;
+  height: 11px !important;
+  fill: var(--ronin-accent) !important;
+}
+#faqs .elementor-accordion-title {
+  flex: 1;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+#faqs .elementor-tab-content {
+  padding: 0 28px 26px 72px !important;
   color: var(--ronin-muted);
-  line-height: 1.8;
+  font-size: 15.5px;
+  line-height: 1.85;
+}
+#faqs .elementor-tab-content strong {
+  color: var(--ronin-ink);
+  font-weight: 600;
+}
+@media (max-width: 480px) {
+  #faqs .elementor-tab-title {
+    padding: 20px 18px !important;
+  }
+  #faqs .elementor-accordion-icon {
+    width: 24px !important;
+    height: 24px;
+    margin-inline-end: 12px;
+  }
+  #faqs .elementor-tab-content {
+    padding: 0 18px 22px 54px !important;
+  }
 }
 
 /* Mobile composition */
