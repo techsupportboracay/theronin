@@ -223,32 +223,22 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 				<p class="hero__tagline">Your place to pause between island adventures.</p>
 			</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-7c10c951 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7c10c951" data-element_type="section" data-e-type="section" id="about" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-30d10f2e" data-id="30d10f2e" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-bc192ee elementor-widget elementor-widget-text-editor" data-id="bc192ee" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>01 / About</p>								</div>
-				<div class="elementor-element elementor-element-549ef312 elementor-widget elementor-widget-heading" data-id="549ef312" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Stay Close to Everything, Away from the Noise. </em></h2>				</div>
-				<div class="elementor-element elementor-element-283f3a83 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="283f3a83" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
-							<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
+				<section id="about" class="site-section">
+					<div class="site-section__row about__row">
+						<div class="about__content">
+							<p class="section-label">01 / About</p>
+							<h2 class="section-heading">Stay Close to Everything, Away from the Noise.</h2>
+							<span class="section-divider"></span>
+							<div class="about__copy">
+								<p>The Ronin Siargao offers a peaceful place to stay while keeping you close to the island&rsquo;s most popular attractions. Located in Catangnan, General Luna, the property provides easy access to Cloud 9, surf spots, restaurants, caf&eacute;s, and local lifestyle destinations.</p>
+								<p>After a day of exploring, guests can return to a calm and comfortable space designed for rest, simplicity, and easy island living. It is the ideal base for travelers who want convenience without giving up peace and privacy.</p>
+							</div>
 						</div>
-				<div class="elementor-element elementor-element-382db81e elementor-widget elementor-widget-text-editor" data-id="382db81e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p class="isSelectedEnd">The Ronin Siargao offers a peaceful place to stay while keeping you close to the island’s most popular attractions. Located in Catangnan, General Luna, the property provides easy access to Cloud 9, surf spots, restaurants, cafés, and local lifestyle destinations.</p><p>After a day of exploring, guests can return to a calm and comfortable space designed for rest, simplicity, and easy island living. It is the ideal base for travelers who want convenience without giving up peace and privacy.</p>								</div>
+						<div class="about__media">
+							<img decoding="async" loading="lazy" width="1024" height="768" src="wp-content/uploads/2026/06/Property-Photo.webp" srcset="wp-content/uploads/2026/06/Property-Photo.webp 1024w, wp-content/uploads/2026/06/Property-Photo-300x225.webp 300w, wp-content/uploads/2026/06/Property-Photo-768x576.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" alt="The Ronin Siargao property exterior">
+						</div>
 					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a5b5ee6" data-id="6a5b5ee6" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-4dcdd5ea elementor-widget elementor-widget-image" data-id="4dcdd5ea" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img decoding="async" width="1024" height="768" src="wp-content/uploads/2026/06/Property-Photo.webp" class="attachment-full size-full wp-image-167" alt="" srcset="wp-content/uploads/2026/06/Property-Photo.webp 1024w, wp-content/uploads/2026/06/Property-Photo-300x225.webp 300w, wp-content/uploads/2026/06/Property-Photo-768x576.webp 768w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
-					</div>
-		</div>
-					</div>
-		</section>
+				</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-a3cee83 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a3cee83" data-element_type="section" data-e-type="section" id="rooms" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-643d296b" data-id="643d296b" data-element_type="column" data-e-type="column">
