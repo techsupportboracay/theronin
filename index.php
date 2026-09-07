@@ -326,20 +326,10 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 						</div>
 					</div>
 				</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-5ec35fd6 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ec35fd6" data-element_type="section" data-e-type="section" id="gallery" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-576d7764" data-id="576d7764" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-b53b2ac elementor-widget elementor-widget-text-editor" data-id="b53b2ac" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>04 / Gallery</p>								</div>
-				<div class="elementor-element elementor-element-83180cd elementor-widget elementor-widget-heading" data-id="83180cd" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Life at <em>The Ronin</em></h2>				</div>
-				<div class="elementor-element elementor-element-32412d21 elementor-widget elementor-widget-spacer" data-id="32412d21" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				<div class="elementor-element elementor-element-b8ccfe7 elementor-widget elementor-widget-gallery" data-id="b8ccfe7" data-element_type="widget" data-e-type="widget" data-settings="{&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:6,&quot;sizes&quot;:[]},&quot;columns&quot;:3,&quot;gallery_layout&quot;:&quot;grid&quot;,&quot;columns_tablet&quot;:2,&quot;columns_mobile&quot;:1,&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;aspect_ratio&quot;:&quot;3:2&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}" data-widget_type="gallery.default">
+				<section id="gallery" class="site-section">
+					<div class="site-section__row">
+						<p class="gallery__kicker">04 / Gallery</p>
+						<h2 class="section-heading">Life at <em>The Ronin</em></h2>
 							<div class="simple-gallery">
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/06/Property-Photo.webp" data-group="life" data-title="Property Photo">
 								<img src="wp-content/uploads/2026/06/Property-Photo.webp" loading="lazy" alt="Property Photo">
@@ -379,10 +369,7 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 							</a>
 					</div>
 					</div>
-					</div>
-		</div>
-					</div>
-		</section>
+				</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-3e0fb250 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3e0fb250" data-element_type="section" data-e-type="section" id="contact" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 <?php if (($_GET['sent'] ?? '') === '1'): ?><div class="site-notice site-notice--success">Thanks — your message has been sent. We will get back to you shortly.</div><?php endif; ?>
 <?php if (($_GET['sent'] ?? '') === '0'): ?><div class="site-notice site-notice--error">Sorry, something went wrong sending your message. Please try WhatsApp instead.</div><?php endif; ?>
