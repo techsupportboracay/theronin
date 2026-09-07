@@ -488,3 +488,261 @@
   .elementor-42 .elementor-element.elementor-element-36bc6f72 { --width: 58% !important; }
 }
 
+
+
+/* Full-page visual system */
+:root {
+  --ronin-ink: #29231f;
+  --ronin-muted: #6f655d;
+  --ronin-paper: #fbf8f4;
+  --ronin-sand: #f1e8dc;
+  --ronin-sage: #e5e9df;
+  --ronin-accent: #ae704c;
+  --ronin-line: rgba(41, 35, 31, 0.14);
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--ronin-paper);
+  color: var(--ronin-ink);
+}
+.elementor-2 .elementor-section {
+  overflow: hidden;
+}
+.elementor-2 .elementor-section > .elementor-container {
+  width: min(100%, 1240px);
+  margin-inline: auto;
+}
+.elementor-2 .elementor-section .elementor-widget-text-editor {
+  color: var(--ronin-muted);
+  font-size: 16px;
+  line-height: 1.85;
+}
+.elementor-2 .elementor-section .elementor-widget-text-editor p {
+  margin-bottom: 1.2em;
+}
+.elementor-2 .elementor-section .elementor-heading-title {
+  color: var(--ronin-ink);
+}
+.elementor-2 .elementor-section[id] {
+  scroll-margin-top: 92px;
+}
+
+/* Hero */
+.elementor-2 .elementor-element.elementor-element-3ab2cd12 {
+  min-height: 720px;
+  padding: 150px 28px 96px !important;
+  background-position: center 58% !important;
+}
+.elementor-2 .elementor-element.elementor-element-3ab2cd12::before {
+  background:
+    linear-gradient(180deg, rgba(15, 22, 26, 0.48), rgba(15, 22, 26, 0.12) 45%, rgba(15, 22, 26, 0.56)),
+    linear-gradient(90deg, rgba(15, 22, 26, 0.24), transparent 65%);
+}
+.elementor-2 .elementor-element.elementor-element-fc72f33 .elementor-heading-title {
+  font-size: clamp(13px, 1.3vw, 18px);
+  line-height: 1.5;
+  letter-spacing: 0.19em;
+  word-spacing: 0.35em;
+  text-transform: uppercase;
+}
+.elementor-2 .elementor-element.elementor-element-4077d80 .elementor-heading-title,
+.elementor-2 .elementor-element.elementor-element-ed98778 .elementor-heading-title {
+  font-family: "Nanum Myeongjo", Georgia, serif;
+  font-size: clamp(54px, 7vw, 96px);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+  word-spacing: 0;
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+.elementor-2 .elementor-element.elementor-element-0534ed7 {
+  margin-top: 24px;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+}
+
+/* Shared section rhythm */
+.elementor-2 .elementor-element.elementor-element-7c10c951,
+.elementor-2 .elementor-element.elementor-element-a3cee83,
+.elementor-2 .elementor-element.elementor-element-253b16b2,
+.elementor-2 .elementor-element.elementor-element-5ec35fd6,
+.elementor-2 .elementor-element.elementor-element-3e0fb250,
+.elementor-2 .elementor-element.elementor-element-6a42da53 {
+  padding: clamp(82px, 9vw, 144px) clamp(22px, 5vw, 72px) !important;
+}
+.elementor-2 .elementor-element.elementor-element-7c10c951 {
+  background: var(--ronin-paper) !important;
+}
+.elementor-2 .elementor-element.elementor-element-a3cee83,
+.elementor-2 .elementor-element.elementor-element-253b16b2,
+.elementor-2 .elementor-element.elementor-element-6a42da53 {
+  background: var(--ronin-sand) !important;
+}
+.elementor-2 .elementor-element.elementor-element-5ec35fd6 {
+  background: var(--ronin-sage) !important;
+}
+
+/* Section labels */
+.elementor-2 .elementor-element.elementor-element-bc192ee,
+.elementor-2 .elementor-element.elementor-element-3ae8c51,
+.elementor-2 .elementor-element.elementor-element-8da483d,
+.elementor-2 .elementor-element.elementor-element-80ad3ea {
+  color: var(--ronin-accent) !important;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* Editorial headings */
+.elementor-2 .elementor-element.elementor-element-549ef312 .elementor-heading-title,
+.elementor-2 .elementor-element.elementor-element-15cb227e .elementor-heading-title,
+.elementor-2 .elementor-element.elementor-element-1546df1f .elementor-heading-title,
+.elementor-2 .elementor-element.elementor-element-83180cd .elementor-heading-title,
+.elementor-2 .elementor-element.elementor-element-290d8f9c .elementor-heading-title {
+  max-width: 720px;
+  margin-top: 18px;
+  font-family: "Nanum Myeongjo", Georgia, serif;
+  font-size: clamp(38px, 4.4vw, 64px);
+  font-weight: 400;
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+}
+.elementor-2 .elementor-element.elementor-element-283f3a83 .elementor-divider {
+  padding-block: 24px;
+}
+.elementor-2 .elementor-element.elementor-element-283f3a83 .elementor-divider-separator {
+  width: 64px;
+  border-top-width: 2px;
+  border-color: var(--ronin-accent);
+}
+
+/* Image framing */
+.elementor-2 .elementor-widget-image img,
+.elementor-2 .simple-gallery__item {
+  border-radius: 14px;
+}
+.elementor-2 .elementor-widget-image img {
+  box-shadow: 0 20px 50px rgba(41, 35, 31, 0.13);
+}
+.elementor-2 .simple-gallery__item {
+  box-shadow: 0 10px 28px rgba(41, 35, 31, 0.1);
+}
+.elementor-2 .simple-gallery__item img {
+  transition: transform 450ms cubic-bezier(.2,.65,.25,1), filter 450ms ease;
+}
+.elementor-2 .simple-gallery__item:hover img {
+  filter: saturate(1.08);
+  transform: scale(1.045);
+}
+
+/* Room and amenity detail */
+#rooms .elementor-widget-text-editor,
+#amenities .elementor-widget-text-editor {
+  color: var(--ronin-muted);
+}
+#rooms .elementor-button,
+#contact .elementor-button {
+  border-radius: 999px !important;
+  padding: 14px 24px !important;
+  background: var(--ronin-ink) !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em;
+}
+#rooms .elementor-button:hover,
+#contact .elementor-button:hover {
+  background: var(--ronin-accent) !important;
+}
+
+/* Amenities card-like grid */
+#amenities .elementor-icon-box-wrapper {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--ronin-line);
+}
+#amenities .elementor-icon-box-title {
+  color: var(--ronin-ink) !important;
+  font-size: 16px !important;
+}
+#amenities .elementor-icon-box-description {
+  color: var(--ronin-muted) !important;
+  line-height: 1.7;
+}
+
+/* Contact / booking section */
+#contact {
+  position: relative;
+}
+#contact::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background: var(--ronin-line);
+  content: "";
+}
+#contact .elementor-form,
+#contact .frm_forms {
+  padding: clamp(24px, 4vw, 48px);
+  border: 1px solid var(--ronin-line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.48);
+  box-shadow: 0 18px 45px rgba(41, 35, 31, 0.06);
+}
+#contact input,
+#contact textarea,
+#contact select {
+  border-color: rgba(41, 35, 31, 0.2);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.82);
+}
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus {
+  border-color: var(--ronin-accent);
+  box-shadow: 0 0 0 3px rgba(174, 112, 76, 0.14);
+}
+
+/* FAQ refinement */
+#faqs .elementor-accordion-item {
+  border-color: var(--ronin-line) !important;
+}
+#faqs .elementor-tab-title {
+  padding: 22px 0 !important;
+  font-size: 17px;
+  font-weight: 600 !important;
+}
+#faqs .elementor-tab-content {
+  padding: 0 0 22px !important;
+  color: var(--ronin-muted);
+  line-height: 1.8;
+}
+
+/* Mobile composition */
+@media (max-width: 767px) {
+  .elementor-2 .elementor-element.elementor-element-3ab2cd12 {
+    min-height: 650px;
+    padding: 132px 20px 72px !important;
+    background-position: 62% center !important;
+  }
+  .elementor-2 .elementor-element.elementor-element-0534ed7 {
+    font-size: 15px;
+  }
+  .elementor-2 .elementor-element.elementor-element-7c10c951,
+  .elementor-2 .elementor-element.elementor-element-a3cee83,
+  .elementor-2 .elementor-element.elementor-element-253b16b2,
+  .elementor-2 .elementor-element.elementor-element-5ec35fd6,
+  .elementor-2 .elementor-element.elementor-element-3e0fb250,
+  .elementor-2 .elementor-element.elementor-element-6a42da53 {
+    padding: 72px 20px !important;
+  }
+  #contact::before {
+    display: none;
+  }
+  #contact .elementor-form,
+  #contact .frm_forms {
+    padding: 22px 18px;
+  }
+}
+
