@@ -128,6 +128,30 @@ class Beds24Client
     }
 
     /**
+     * Adds an accommodation charge line item to an existing booking so it
+     * appears in the Charges & Payments tab (setting `price` on booking
+     * creation only fills the summary field, it doesn't create a charge).
+     */
+    public function addInvoiceCharge(int $bookingId, string $description, float $amount): array
+    {
+        [$status, $data] = $this->authedRequest('POST', '/bookings', [[
+            'id' => $bookingId,
+            'invoiceItems' => [[
+                'type' => 'charge',
+                'description' => $description,
+                'qty' => 1,
+                'amount' => $amount,
+                'vatRate' => 0,
+            ]],
+        ]]);
+        $result = $data[0] ?? null;
+        if (($status !== 200 && $status !== 201) || empty($result['success'])) {
+            return ['ok' => false, 'error' => is_array($result) ? json_encode($result) : "HTTP $status"];
+        }
+        return ['ok' => true, 'raw' => $result];
+    }
+
+    /**
      * Sets an existing booking's status to "cancelled" (the correct way to
      * void an active booking - Beds24 will not hard-delete active bookings).
      */

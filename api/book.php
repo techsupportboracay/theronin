@@ -87,6 +87,15 @@ if (!$booking['ok']) {
     fail('We could not create your booking right now. Please contact us on WhatsApp: +' . env('WHATSAPP_NUMBER'), 502);
 }
 
+// Best-effort: push an accommodation charge so it shows in Beds24's Charges
+// & Payments tab. Never blocks the booking itself if this fails.
+if ($booking['id']) {
+    $charge = $client->addInvoiceCharge((int) $booking['id'], 'Accommodation', $totalPrice);
+    if (!$charge['ok']) {
+        error_log('Beds24 invoice charge failed for booking ' . $booking['id'] . ': ' . $charge['error']);
+    }
+}
+
 $bankName = env('BANK_NAME', '(bank details to follow by email/WhatsApp)');
 $bankAccountName = env('BANK_ACCOUNT_NAME', '');
 $bankAccountNumber = env('BANK_ACCOUNT_NUMBER', '');
