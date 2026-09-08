@@ -623,6 +623,16 @@ body {
   line-height: 1.65;
 }
 
+/* Base image reset: keep intrinsic aspect ratio whenever only `width` is
+   set in CSS (the HTML width/height attributes would otherwise stretch
+   the image to their literal pixel values). Rules that need a fixed
+   height for a cropped/filled image (e.g. #room-carousel img) set their
+   own height and win via specificity. */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Accessibility: visually-hidden text, revealed on focus for skip links */
 .screen-reader-text {
   position: absolute;
