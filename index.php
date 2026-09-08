@@ -126,6 +126,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <link rel='stylesheet' id='elementor-gf-redhatdisplay-css' href='https://fonts.googleapis.com/css?family=Red+Hat+Display:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' />
 <link rel='stylesheet' id='elementor-gf-nanummyeongjo-css' href='https://fonts.googleapis.com/css?family=Nanum+Myeongjo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' />
 <link rel='stylesheet' id='elementor-gf-ibmplexsanshebrew-css' href='https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Hebrew:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' />
+<link rel='stylesheet' id='ronin-gf-dmsans-css' href='https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&#038;display=swap' media='all' />
 <script id="jquery-core-js" src="wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
 <script id="jquery-migrate-js" src="wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
 <script id="jquery-js-after">
@@ -540,72 +541,40 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 
 	</div> <!-- ast-container -->
 	</div><!-- #content -->
-		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
-			<div class='footer-width-fixer'><style>.elementor-86 .elementor-element.elementor-element-b9989d3:not(.elementor-motion-effects-element-type-background), .elementor-86 .elementor-element.elementor-element-b9989d3 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#1a1008;}.elementor-86 .elementor-element.elementor-element-b9989d3{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:72px 48px 48px 48px;}.elementor-86 .elementor-element.elementor-element-b9989d3 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-86 .elementor-element.elementor-element-4c801d1{--display:flex;}.elementor-86 .elementor-element.elementor-element-4dadb92{--display:flex;}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-86 .elementor-element.elementor-element-dc34360{text-align:start;}.elementor-86 .elementor-element.elementor-element-dc34360 img{width:55%;}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-86 .elementor-element.elementor-element-06cf062{width:auto;max-width:auto;text-align:start;font-family:"IBM Plex Sans Hebrew", Sans-serif;font-size:15px;font-weight:400;letter-spacing:-0.6px;color:var( --e-global-color-text );}.elementor-86 .elementor-element.elementor-element-06cf062.elementor-element{--align-self:flex-start;}.elementor-86 .elementor-element.elementor-element-06cf062 p{margin-block-end:0px;}.elementor-86 .elementor-element.elementor-element-6ad87d5:not(.elementor-motion-effects-element-type-background), .elementor-86 .elementor-element.elementor-element-6ad87d5 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#1a1008;}.elementor-86 .elementor-element.elementor-element-6ad87d5{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:0px 48px 40px 48px;}.elementor-86 .elementor-element.elementor-element-6ad87d5 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}@media(max-width:767px){.elementor-86 .elementor-element.elementor-element-b9989d3{padding:48px 20px 40px 20px;}}</style>		<div data-elementor-type="wp-post" data-elementor-id="86" class="elementor elementor-86" data-elementor-post-type="elementor-hf">
-						<section class="elementor-section elementor-top-section elementor-element elementor-element-b9989d3 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b9989d3" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-7a82d59c" data-id="7a82d59c" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-				<div class="elementor-element elementor-element-4c801d1 e-flex e-con-boxed e-con e-parent" data-id="4c801d1" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-4dadb92 e-con-full e-flex e-con e-child" data-id="4dadb92" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-dc34360 elementor-widget elementor-widget-image" data-id="dc34360" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-															<img width="1957" height="557" src="wp-content/uploads/2026/06/Logo-Updated.png" class="attachment-full size-full wp-image-374" alt="" srcset="wp-content/uploads/2026/06/Logo-Updated.png 1957w, wp-content/uploads/2026/06/Logo-Updated-300x85.png 300w, wp-content/uploads/2026/06/Logo-Updated-1024x291.png 1024w, wp-content/uploads/2026/06/Logo-Updated-768x219.png 768w, wp-content/uploads/2026/06/Logo-Updated-1536x437.png 1536w" sizes="(max-width: 1957px) 100vw, 1957px" />															</div>
-				<div class="elementor-element elementor-element-06cf062 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="06cf062" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>A sanctuary at the edge of the ocean. </p><p>General Luna, Siargao Island, Philippines.</p>								</div>
+		<footer id="site-footer">
+			<div class="site-footer__row">
+				<div class="site-footer__brand">
+					<img width="1957" height="557" src="wp-content/uploads/2026/06/Logo-Updated.png" srcset="wp-content/uploads/2026/06/Logo-Updated.png 1957w, wp-content/uploads/2026/06/Logo-Updated-300x85.png 300w, wp-content/uploads/2026/06/Logo-Updated-1024x291.png 1024w, wp-content/uploads/2026/06/Logo-Updated-768x219.png 768w, wp-content/uploads/2026/06/Logo-Updated-1536x437.png 1536w" sizes="(max-width: 1957px) 100vw, 1957px" alt="The Ronin Siargao" class="site-footer__logo">
+					<p class="site-footer__tagline">A sanctuary at the edge of the ocean.<br>General Luna, Siargao Island, Philippines.</p>
 				</div>
-					</div>
+				<div class="site-footer__col">
+					<p class="site-footer__label">Explore</p>
+					<nav class="site-footer__links">
+						<a href="#about">About</a>
+						<a href="#rooms">The Room</a>
+						<a href="#amenities">Amenities</a>
+						<a href="#gallery">Gallery</a>
+						<a href="#faqs">FAQs</a>
+					</nav>
 				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-2bf489d" data-id="2bf489d" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-34366b28 elementor-widget elementor-widget-html" data-id="34366b28" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-					<p style="font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#c0795a;margin-bottom:20px;font-family:'DM Sans',sans-serif;font-weight:400;">Explore</p>
-  <div style="display:flex;flex-direction:column;gap:12px;">
-    <a href="#about" style="text-decoration:none;font-size:13px;color:rgba(250,248,244,.6);font-family:'DM Sans',sans-serif;">About</a>
-    <a href="#rooms" style="text-decoration:none;font-size:13px;color:rgba(250,248,244,.6);font-family:'DM Sans',sans-serif;">The Room</a>
-    <a href="#amenities" style="text-decoration:none;font-size:13px;color:rgba(250,248,244,.6);font-family:'DM Sans',sans-serif;">Amenities</a>
-    <a href="#gallery" style="text-decoration:none;font-size:13px;color:rgba(250,248,244,.6);font-family:'DM Sans',sans-serif;">Gallery</a>
-    <a href="#faqs" style="text-decoration:none;font-size:13px;color:rgba(250,248,244,.6);font-family:'DM Sans',sans-serif;">FAQs</a>
-  </div>				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-5e0eeff2" data-id="5e0eeff2" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-105cb89b elementor-widget elementor-widget-html" data-id="105cb89b" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-					<p style="font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#c0795a;margin-bottom:20px;font-family:'DM Sans',sans-serif;font-weight:400;">Contact</p>
-  <div style="display:flex;flex-direction:column;gap:12px;">
-    <a href="https://wa.me/639063994675" target="_blank" style="text-decoration:none;font-size:13px;color:rgba(250,248,244,.6);font-family:'DM Sans',sans-serif;">+63 906 399 4675</a>
-    <a href="/cdn-cgi/l/email-protection#71181f171e31051914031e1f181f0218100316101e5f121e1c" style="text-decoration:none;font-size:13px;color:rgba(250,248,244,.6);font-family:'DM Sans',sans-serif;word-break:break-all;"><span class="__cf_email__" data-cfemail="721b1c141d32061a17001d1c1b1c011b130015131d5c111d1f">[email&#160;protected]</span></a>
-    <a href="https://wa.me/639063994675" target="_blank" style="text-decoration:none;font-size:13px;color:rgba(250,248,244,.6);font-family:'DM Sans',sans-serif;">WhatsApp Us</a>
-  </div>				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-2c03305" data-id="2c03305" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-7d7b341f elementor-widget elementor-widget-html" data-id="7d7b341f" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-					<p style="font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#c0795a;margin-bottom:20px;font-family:'DM Sans',sans-serif;font-weight:400;">Location</p>
-  <p style="font-size:13px;line-height:1.9;color:rgba(250,248,244,.55);font-family:'DM Sans',sans-serif;font-weight:300;">Tourism Road Catangnan<br>General Luna<br>Siargao Island<br>Surigao Del Norte</p>				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-6ad87d5 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6ad87d5" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cac20aa" data-id="cac20aa" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-41ebafa elementor-widget elementor-widget-html" data-id="41ebafa" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-					<div style="border-top:1px solid rgba(250,248,244,.08);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;">
-    <p style="font-size:12px;color:rgba(250,248,244,.3);font-family:'DM Sans',sans-serif;font-weight:300;">© 2026 The Ronin Siargao Resort. All rights reserved.</p>
-    <p style="font-size:12px;color:rgba(250,248,244,.3);font-family:'DM Sans',sans-serif;font-weight:300;">General Luna · Siargao Island · Philippines</p>
-  </div>				</div>
-					</div>
-		</div>
-					</div>
-		</section>
+				<div class="site-footer__col">
+					<p class="site-footer__label">Contact</p>
+					<nav class="site-footer__links">
+						<a href="https://wa.me/639063994675" target="_blank" rel="noopener">+63 906 399 4675</a>
+						<a href="/cdn-cgi/l/email-protection#71181f171e31051914031e1f181f0218100316101e5f121e1c"><span class="__cf_email__" data-cfemail="721b1c141d32061a17001d1c1b1c011b130015131d5c111d1f">[email&#160;protected]</span></a>
+						<a href="https://wa.me/639063994675" target="_blank" rel="noopener">WhatsApp Us</a>
+					</nav>
 				</div>
-		</div>		</footer>
+				<div class="site-footer__col">
+					<p class="site-footer__label">Location</p>
+					<p class="site-footer__address">Tourism Road Catangnan<br>General Luna<br>Siargao Island<br>Surigao Del Norte</p>
+				</div>
+			</div>
+			<div class="site-footer__bottom">
+				<p>&copy; 2026 The Ronin Siargao Resort. All rights reserved.</p>
+				<p>General Luna &middot; Siargao Island &middot; Philippines</p>
+			</div>
+		</footer>
 		</div><!-- #page -->
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 
