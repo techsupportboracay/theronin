@@ -4,13 +4,121 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Ronin Siargao</title>
-<meta name='robots' content='max-image-preview:large' />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MP66P6CX');</script>
+<!-- End Google Tag Manager -->
+<title>The Ronin Siargao | Boutique Stay Near Cloud 9, General Luna</title>
+<meta name="description" content="A peaceful boutique stay in Catangnan, General Luna &#8212; minutes from Cloud 9 and Siargao's best surf, cafes, and restaurants. Book your room at The Ronin Siargao." />
+<meta name='robots' content='index, follow, max-image-preview:large' />
 <link rel="icon" href="assets/img/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
 <link rel="canonical" href="https://theroninsiargao.com/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="The Ronin Siargao" />
+<meta property="og:title" content="The Ronin Siargao | Boutique Stay Near Cloud 9, General Luna" />
+<meta property="og:description" content="A peaceful boutique stay in Catangnan, General Luna &#8212; minutes from Cloud 9 and Siargao's best surf, cafes, and restaurants." />
+<meta property="og:url" content="https://theroninsiargao.com/" />
+<meta property="og:image" content="https://theroninsiargao.com/wp-content/uploads/2026/06/Cover2.webp" />
+<meta property="og:image:width" content="1440" />
+<meta property="og:image:height" content="1080" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="The Ronin Siargao | Boutique Stay Near Cloud 9, General Luna" />
+<meta name="twitter:description" content="A peaceful boutique stay in Catangnan, General Luna &#8212; minutes from Cloud 9 and Siargao's best surf, cafes, and restaurants." />
+<meta name="twitter:image" content="https://theroninsiargao.com/wp-content/uploads/2026/06/Cover2.webp" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Hotel",
+  "name": "The Ronin Siargao",
+  "description": "A peaceful boutique stay in Catangnan, General Luna, minutes from Cloud 9 and Siargao's best surf, cafes, and restaurants.",
+  "url": "https://theroninsiargao.com/",
+  "telephone": "+63-906-399-4675",
+  "image": [
+    "https://theroninsiargao.com/wp-content/uploads/2026/06/Cover2.webp",
+    "https://theroninsiargao.com/wp-content/uploads/2026/06/Property-Photo.webp"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Tourism Road, Catangnan",
+    "addressLocality": "General Luna, Siargao Island",
+    "addressRegion": "Surigao Del Norte",
+    "addressCountry": "PH"
+  },
+  "checkinTime": "15:00",
+  "checkoutTime": "12:00",
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "On-Site Restaurant", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "On-Site Parking", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Air Conditioning", "value": true }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is early check-in or late check-out possible?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Early check-in and late check-out are subject to room availability and cannot be guaranteed. Should your room not be ready upon arrival, you may leave your luggage with our staff while the room is being prepared."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is breakfast included in the room rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Breakfast is not included in the room rate. However, we have an on-site restaurant where guests may order breakfast, drinks, and other meals during their stay. Menu items and operating hours may vary."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a minimum stay requirement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, there is no minimum stay requirement. Guests may book for one night or longer, subject to room availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How close are you to Cloud 9?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The property is approximately 1.6 kilometers from Cloud 9, or around a 4-minute drive via Tourism Road, depending on traffic conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is full payment required to confirm the booking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Full payment is required to secure and confirm your room reservation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your cancellation and refund policy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guests may cancel their reservation free of charge up to one day before the scheduled check-in date."
+      }
+    }
+  ]
+}
+</script>
 <link rel='stylesheet' href='assets/css/custom.css?v=3a91c02' media='all' />
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -27,6 +135,10 @@
 <link rel='stylesheet' id='ronin-gf-dmsans-css' href='https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&#038;display=swap' media='all' />
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP66P6CX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
 
@@ -120,19 +232,19 @@
 							<div id="room-carousel" class="relative w-full h-[400px] sm:h-[500px] lg:h-[613px] overflow-hidden mb-2.5 group">
 								<div class="room-carousel__track flex h-full transition-transform duration-500 ease-out">
 									<a href="wp-content/uploads/2026/06/10RoninRoom1.webp" class="js-lightbox flex-none w-full h-full" data-group="room" data-title="Double Room">
-										<img src="wp-content/uploads/2026/06/10RoninRoom1.webp" alt="Double Room" class="w-full h-full object-cover">
+										<img src="wp-content/uploads/2026/06/10RoninRoom1.webp" alt="The Ronin Siargao double room, view 1" class="w-full h-full object-cover">
 									</a>
 									<a href="wp-content/uploads/2026/06/20RoninRoom1.webp" class="js-lightbox flex-none w-full h-full" data-group="room" data-title="Double Room">
-										<img src="wp-content/uploads/2026/06/20RoninRoom1.webp" alt="Double Room" class="w-full h-full object-cover">
+										<img src="wp-content/uploads/2026/06/20RoninRoom1.webp" alt="The Ronin Siargao double room, view 2" class="w-full h-full object-cover">
 									</a>
 									<a href="wp-content/uploads/2026/06/30RoninRoom1.webp" class="js-lightbox flex-none w-full h-full" data-group="room" data-title="Double Room">
-										<img src="wp-content/uploads/2026/06/30RoninRoom1.webp" alt="Double Room" class="w-full h-full object-cover">
+										<img src="wp-content/uploads/2026/06/30RoninRoom1.webp" alt="The Ronin Siargao double room, view 3" class="w-full h-full object-cover">
 									</a>
 									<a href="wp-content/uploads/2026/06/40RoninRoom1.webp" class="js-lightbox flex-none w-full h-full" data-group="room" data-title="Double Room">
-										<img src="wp-content/uploads/2026/06/40RoninRoom1.webp" alt="Double Room" class="w-full h-full object-cover">
+										<img src="wp-content/uploads/2026/06/40RoninRoom1.webp" alt="The Ronin Siargao double room, view 4" class="w-full h-full object-cover">
 									</a>
 									<a href="wp-content/uploads/2026/06/50RoninRoom1.webp" class="js-lightbox flex-none w-full h-full" data-group="room" data-title="Double Room">
-										<img src="wp-content/uploads/2026/06/50RoninRoom1.webp" alt="Double Room" class="w-full h-full object-cover">
+										<img src="wp-content/uploads/2026/06/50RoninRoom1.webp" alt="The Ronin Siargao double room, view 5" class="w-full h-full object-cover">
 									</a>
 								</div>
 								<button type="button" class="room-carousel__prev absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center rounded-full bg-white/80 text-black opacity-0 group-hover:opacity-100 transition-opacity" aria-label="Previous photo">&#8249;</button>
@@ -178,40 +290,40 @@
 						<h2 class="section-heading">Life at <em>The Ronin</em></h2>
 							<div class="simple-gallery">
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/06/Property-Photo.webp" data-group="life" data-title="Property Photo">
-								<img src="wp-content/uploads/2026/06/Property-Photo.webp" loading="lazy" alt="Property Photo">
+								<img src="wp-content/uploads/2026/06/Property-Photo.webp" loading="lazy" alt="The Ronin Siargao property exterior in Catangnan, General Luna">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Siargao-Island-Cloud-9.webp" data-group="life" data-title="Siargao Island Cloud 9">
-								<img src="wp-content/uploads/2026/07/Siargao-Island-Cloud-9.webp" loading="lazy" alt="Siargao Island Cloud 9">
+								<img src="wp-content/uploads/2026/07/Siargao-Island-Cloud-9.webp" loading="lazy" alt="Cloud 9 surf break, a short ride from The Ronin Siargao">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Surfing.webp" data-group="life" data-title="Surfing">
-								<img src="wp-content/uploads/2026/07/Surfing.webp" loading="lazy" alt="Surfing">
+								<img src="wp-content/uploads/2026/07/Surfing.webp" loading="lazy" alt="Surfer riding a wave near Siargao Island">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Siargao-Island-A-beautiful-beach.webp" data-group="life" data-title="Siargao Island - A beautiful beach">
-								<img src="wp-content/uploads/2026/07/Siargao-Island-A-beautiful-beach.webp" loading="lazy" alt="Siargao Island - A beautiful beach">
+								<img src="wp-content/uploads/2026/07/Siargao-Island-A-beautiful-beach.webp" loading="lazy" alt="Beautiful beach on Siargao Island near General Luna">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Siargao-Island-Naked-island.webp" data-group="life" data-title="Siargao Island - Naked Island">
-								<img src="wp-content/uploads/2026/07/Siargao-Island-Naked-island.webp" loading="lazy" alt="Siargao Island - Naked Island">
+								<img src="wp-content/uploads/2026/07/Siargao-Island-Naked-island.webp" loading="lazy" alt="Naked Island, a popular Siargao island-hopping stop">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Siargao-Island-Palm-tree-road.webp" data-group="life" data-title="Siargao Island - Palm tree road">
-								<img src="wp-content/uploads/2026/07/Siargao-Island-Palm-tree-road.webp" loading="lazy" alt="Siargao Island - Palm tree road">
+								<img src="wp-content/uploads/2026/07/Siargao-Island-Palm-tree-road.webp" loading="lazy" alt="Palm tree-lined road on Siargao Island">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Wild-Dishes.webp" data-group="life" data-title="Wild Dishes">
-								<img src="wp-content/uploads/2026/07/Wild-Dishes.webp" loading="lazy" alt="Wild Dishes">
+								<img src="wp-content/uploads/2026/07/Wild-Dishes.webp" loading="lazy" alt="Local dishes served at The Ronin Siargao's on-site restaurant">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Dine-1.webp" data-group="life" data-title="Dine">
-								<img src="wp-content/uploads/2026/07/Dine-1.webp" loading="lazy" alt="Dine">
+								<img src="wp-content/uploads/2026/07/Dine-1.webp" loading="lazy" alt="Dining area at The Ronin Siargao">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Dining-Table.webp" data-group="life" data-title="Dining Table">
-								<img src="wp-content/uploads/2026/07/Dining-Table.webp" loading="lazy" alt="Dining Table">
+								<img src="wp-content/uploads/2026/07/Dining-Table.webp" loading="lazy" alt="Dining table set at The Ronin Siargao's restaurant">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Dining.webp" data-group="life" data-title="Dining">
-								<img src="wp-content/uploads/2026/07/Dining.webp" loading="lazy" alt="Dining">
+								<img src="wp-content/uploads/2026/07/Dining.webp" loading="lazy" alt="Guests dining at The Ronin Siargao">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Restaurant.webp" data-group="life" data-title="Restaurant">
-								<img src="wp-content/uploads/2026/07/Restaurant.webp" loading="lazy" alt="Restaurant">
+								<img src="wp-content/uploads/2026/07/Restaurant.webp" loading="lazy" alt="On-site restaurant at The Ronin Siargao, General Luna">
 							</a>
 							<a class="simple-gallery__item js-lightbox" href="wp-content/uploads/2026/07/Dish.webp" data-group="life" data-title="Dish">
-								<img src="wp-content/uploads/2026/07/Dish.webp" loading="lazy" alt="Dish">
+								<img src="wp-content/uploads/2026/07/Dish.webp" loading="lazy" alt="Freshly prepared dish at The Ronin Siargao restaurant">
 							</a>
 					</div>
 					</div>
@@ -323,7 +435,7 @@
 							<div class="faq-item">
 								<button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
 									<span class="faq-question__icon" aria-hidden="true"></span>
-									<span class="faq-question__text">Does breakfast included in the room rate?</span>
+									<span class="faq-question__text">Is breakfast included in the room rate?</span>
 								</button>
 								<div id="faq-answer-2" class="faq-answer" hidden>
 									<p>Breakfast is not included in the room rate. However, we have an on-site restaurant where guests may order breakfast, drinks, and other meals during their stay. Menu items and operating hours may vary.</p>
