@@ -17,10 +17,6 @@
   var checkinConfirmed = document.getElementById('bk-checkin-confirmed');
   var checkoutConfirmed = document.getElementById('bk-checkout-confirmed');
 
-  var today = new Date().toISOString().slice(0, 10);
-  checkinInput.min = today;
-  checkoutInput.min = today;
-
   function resetModal() {
     datesStep.hidden = false;
     guestForm.hidden = true;

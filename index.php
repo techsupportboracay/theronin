@@ -528,9 +528,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2 id="booking-modal-title">Book Your Stay</h2>
     <div id="booking-step-dates">
       <div class="booking-field-row">
-        <label>Check-in<input type="date" id="bk-checkin" required></label>
-        <label>Check-out<input type="date" id="bk-checkout" required></label>
+        <label>Check-in<input type="text" id="bk-checkin-display" class="booking-date-display" placeholder="mm/dd/yyyy" autocomplete="off" readonly required></label>
+        <label>Check-out<input type="text" id="bk-checkout-display" class="booking-date-display" placeholder="mm/dd/yyyy" autocomplete="off" readonly required></label>
         <label>Guests<input type="number" id="bk-guests" min="1" max="4" value="2" required></label>
+      </div>
+      <input type="hidden" id="bk-checkin">
+      <input type="hidden" id="bk-checkout">
+      <div id="booking-calendar" class="booking-calendar" hidden>
+        <div class="booking-calendar__month">
+          <div class="booking-calendar__header">
+            <button type="button" class="booking-calendar__nav booking-calendar__nav--prev" aria-label="Previous month">&#8249;</button>
+            <span class="booking-calendar__title" data-month="0"></span>
+            <span class="booking-calendar__nav-spacer" aria-hidden="true"></span>
+          </div>
+          <div class="booking-calendar__weekdays">
+            <span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
+          </div>
+          <div class="booking-calendar__days" data-days="0"></div>
+        </div>
+        <div class="booking-calendar__month">
+          <div class="booking-calendar__header">
+            <span class="booking-calendar__nav-spacer" aria-hidden="true"></span>
+            <span class="booking-calendar__title" data-month="1"></span>
+            <button type="button" class="booking-calendar__nav booking-calendar__nav--next" aria-label="Next month">&#8250;</button>
+          </div>
+          <div class="booking-calendar__weekdays">
+            <span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
+          </div>
+          <div class="booking-calendar__days" data-days="1"></div>
+        </div>
       </div>
       <button type="button" id="bk-check-availability">Check Availability</button>
       <div id="bk-availability-result"></div>
@@ -556,6 +582,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <script src="assets/js/nav.js" defer></script>
 <script src="assets/js/booking.js" defer></script>
+<script src="assets/js/booking-calendar.js" defer></script>
 <script src="assets/js/room-carousel.js" defer></script>
 <script src="assets/js/lightbox.js" defer></script>
 <script src="assets/js/faq-accordion.js" defer></script>
