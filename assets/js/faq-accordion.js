@@ -1,21 +1,21 @@
 (function () {
   'use strict';
 
-  var titles = Array.prototype.slice.call(document.querySelectorAll('#faqs .elementor-tab-title'));
-  if (!titles.length) return;
+  var questions = Array.prototype.slice.call(document.querySelectorAll('#faqs .faq-question'));
+  if (!questions.length) return;
 
-  function setState(title, isOpen) {
-    var content = document.getElementById(title.getAttribute('aria-controls'));
-    title.classList.toggle('elementor-active', isOpen);
-    title.setAttribute('aria-expanded', String(isOpen));
-    if (content) content.style.display = isOpen ? 'block' : 'none';
+  function setState(question, isOpen) {
+    var answer = document.getElementById(question.getAttribute('aria-controls'));
+    question.classList.toggle('is-open', isOpen);
+    question.setAttribute('aria-expanded', String(isOpen));
+    if (answer) answer.hidden = !isOpen;
   }
 
-  titles.forEach(function (title) {
-    title.addEventListener('click', function () {
-      var isOpen = title.classList.contains('elementor-active');
-      titles.forEach(function (t) { setState(t, false); });
-      if (!isOpen) setState(title, true);
+  questions.forEach(function (question) {
+    question.addEventListener('click', function () {
+      var isOpen = question.classList.contains('is-open');
+      questions.forEach(function (q) { setState(q, false); });
+      if (!isOpen) setState(question, true);
     });
   });
 })();

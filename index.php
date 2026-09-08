@@ -460,87 +460,68 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 						</div>
 					</div>
 				</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-6a42da53 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6a42da53" data-element_type="section" data-e-type="section" id="faqs" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6b797293" data-id="6b797293" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-80ad3ea elementor-widget elementor-widget-text-editor" data-id="80ad3ea" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>07 / FAQS</p>								</div>
-				<div class="elementor-element elementor-element-290d8f9c elementor-widget elementor-widget-heading" data-id="290d8f9c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Common questions.</h2>				</div>
-				<div class="elementor-element elementor-element-11689e7 elementor-widget elementor-widget-spacer" data-id="11689e7" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				<div class="elementor-element elementor-element-19d5b72e elementor-widget elementor-widget-accordion" data-id="19d5b72e" data-element_type="widget" data-e-type="widget" data-widget_type="accordion.default">
-							<div class="elementor-accordion">
-							<div class="elementor-accordion-item">
-					<p id="elementor-tab-title-4331" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-4331" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">Is early check-in or late check-out possible?</a>
-					</p>
-					<div id="elementor-tab-content-4331" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-4331"><p class="isSelectedEnd">Early check-in and late check-out are subject to room availability and cannot be guaranteed. Should your room not be ready upon arrival, you may leave your luggage with our staff while the room is being prepared.</p></div>
-				</div>
-							<div class="elementor-accordion-item">
-					<p id="elementor-tab-title-4332" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-4332" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">Does breakfast included in the room rate?</a>
-					</p>
-					<div id="elementor-tab-content-4332" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-4332"><p>Breakfast is not included in the room rate. However, we have an on-site restaurant where guests may order breakfast, drinks, and other meals during their stay. Menu items and operating hours may vary.</p></div>
-				</div>
-							<div class="elementor-accordion-item">
-					<p id="elementor-tab-title-4333" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-4333" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">Is there a minimum stay requirement?</a>
-					</p>
-					<div id="elementor-tab-content-4333" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-4333"><p>No, there is no minimum stay requirement. Guests may book for one night or longer, subject to room availability.</p></div>
-				</div>
-							<div class="elementor-accordion-item">
-					<p id="elementor-tab-title-4334" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-4334" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">How close are you to Cloud 9?</a>
-					</p>
-					<div id="elementor-tab-content-4334" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-4334"><p>The property is approximately <strong>1.6 kilometers from Cloud 9</strong>, or around a <strong>4-minute drive via Tourism Road</strong>, depending on traffic conditions.</p></div>
-				</div>
-							<div class="elementor-accordion-item">
-					<p id="elementor-tab-title-4335" class="elementor-tab-title" data-tab="5" role="button" aria-controls="elementor-tab-content-4335" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">Is full payment required to confirm the booking?</a>
-					</p>
-					<div id="elementor-tab-content-4335" class="elementor-tab-content elementor-clearfix" data-tab="5" role="region" aria-labelledby="elementor-tab-title-4335"><p>Full payment is required to secure and confirm your room reservation.</p></div>
-				</div>
-							<div class="elementor-accordion-item">
-					<p id="elementor-tab-title-4336" class="elementor-tab-title" data-tab="6" role="button" aria-controls="elementor-tab-content-4336" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-														</span>
-												<a class="elementor-accordion-title" tabindex="0">What is your cancellation and refund policy?</a>
-					</p>
-					<div id="elementor-tab-content-4336" class="elementor-tab-content elementor-clearfix" data-tab="6" role="region" aria-labelledby="elementor-tab-title-4336"><p>Guests may cancel their reservation free of charge up to one day before the scheduled check-in date.</p></div>
-				</div>
+				<section id="faqs" class="site-section">
+					<div class="site-section__row">
+						<p class="section-label">07 / FAQS</p>
+						<h2 class="section-heading">Common questions.</h2>
+						<div class="faq-list">
+							<div class="faq-item">
+								<button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
+									<span class="faq-question__icon" aria-hidden="true"></span>
+									<span class="faq-question__text">Is early check-in or late check-out possible?</span>
+								</button>
+								<div id="faq-answer-1" class="faq-answer" hidden>
+									<p>Early check-in and late check-out are subject to room availability and cannot be guaranteed. Should your room not be ready upon arrival, you may leave your luggage with our staff while the room is being prepared.</p>
 								</div>
+							</div>
+							<div class="faq-item">
+								<button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
+									<span class="faq-question__icon" aria-hidden="true"></span>
+									<span class="faq-question__text">Does breakfast included in the room rate?</span>
+								</button>
+								<div id="faq-answer-2" class="faq-answer" hidden>
+									<p>Breakfast is not included in the room rate. However, we have an on-site restaurant where guests may order breakfast, drinks, and other meals during their stay. Menu items and operating hours may vary.</p>
+								</div>
+							</div>
+							<div class="faq-item">
+								<button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
+									<span class="faq-question__icon" aria-hidden="true"></span>
+									<span class="faq-question__text">Is there a minimum stay requirement?</span>
+								</button>
+								<div id="faq-answer-3" class="faq-answer" hidden>
+									<p>No, there is no minimum stay requirement. Guests may book for one night or longer, subject to room availability.</p>
+								</div>
+							</div>
+							<div class="faq-item">
+								<button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">
+									<span class="faq-question__icon" aria-hidden="true"></span>
+									<span class="faq-question__text">How close are you to Cloud 9?</span>
+								</button>
+								<div id="faq-answer-4" class="faq-answer" hidden>
+									<p>The property is approximately <strong>1.6 kilometers from Cloud 9</strong>, or around a <strong>4-minute drive via Tourism Road</strong>, depending on traffic conditions.</p>
+								</div>
+							</div>
+							<div class="faq-item">
+								<button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-5">
+									<span class="faq-question__icon" aria-hidden="true"></span>
+									<span class="faq-question__text">Is full payment required to confirm the booking?</span>
+								</button>
+								<div id="faq-answer-5" class="faq-answer" hidden>
+									<p>Full payment is required to secure and confirm your room reservation.</p>
+								</div>
+							</div>
+							<div class="faq-item">
+								<button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-answer-6">
+									<span class="faq-question__icon" aria-hidden="true"></span>
+									<span class="faq-question__text">What is your cancellation and refund policy?</span>
+								</button>
+								<div id="faq-answer-6" class="faq-answer" hidden>
+									<p>Guests may cancel their reservation free of charge up to one day before the scheduled check-in date.</p>
+								</div>
+							</div>
 						</div>
 					</div>
-		</div>
-					</div>
-		</section>
+				</section>
 				</div>
 		
 	
