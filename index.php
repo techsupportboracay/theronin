@@ -433,104 +433,33 @@ class="post-2 page type-page status-publish ast-article-single" id="post-2" item
 						</div>
 					</div>
 				</section>
-		<div class="elementor-element elementor-element-ecf85fe e-flex e-con-boxed e-con e-parent" data-id="ecf85fe" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-85b1aab elementor-widget elementor-widget-text-editor" data-id="85b1aab" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-									<p>06 / Find Us</p>								</div>
-		<div class="elementor-element elementor-element-2506d06 e-con-full e-flex e-con e-child" data-id="2506d06" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-de1e3bd elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="de1e3bd" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-					<h2 class="elementor-heading-title elementor-size-default">Getting to The Ronin</h2>				</div>
-				</div>
-					</div>
-				</div>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-6388e116 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6388e116" data-element_type="section" data-e-type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-282f41d0" data-id="282f41d0" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-64a33071 elementor-widget elementor-widget-google_maps" data-id="64a33071" data-element_type="widget" data-e-type="widget" data-widget_type="google_maps.default">
-							<div class="elementor-custom-embed">
-			<iframe loading="lazy"
-					src="https://maps.google.com/maps?q=Wild%20Siargao%20Restaurant%2C%20Tourism%20Road%20Catangnan%20General%20Luna%20Siargao%20Surigao%20Del%20Norte%20Philippines&#038;t=m&#038;z=15&#038;output=embed&#038;iwloc=near"
-					title="Wild Siargao Restaurant, Tourism Road Catangnan General Luna Siargao Surigao Del Norte Philippines"
-					aria-label="Wild Siargao Restaurant, Tourism Road Catangnan General Luna Siargao Surigao Del Norte Philippines"
-			></iframe>
-		</div>
+				<section id="find-us" class="site-section">
+					<div class="site-section__row">
+						<p class="findus__kicker">06 / Find Us</p>
+						<h2 class="findus__heading">Getting to The Ronin</h2>
+						<div class="findus__map">
+							<iframe loading="lazy"
+									src="https://maps.google.com/maps?q=The%20Ronin%20Siargao%2C%20Tourism%20Road%20Catangnan%20General%20Luna%20Siargao%20Surigao%20Del%20Norte%20Philippines&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near"
+									title="The Ronin Siargao, Tourism Road Catangnan General Luna Siargao Surigao Del Norte Philippines"
+									aria-label="The Ronin Siargao, Tourism Road Catangnan General Luna Siargao Surigao Del Norte Philippines"
+							></iframe>
 						</div>
-				<div class="elementor-element elementor-element-a8537d5 elementor-widget elementor-widget-spacer" data-id="a8537d5" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
+						<div class="findus__grid">
+							<div class="findus__item">
+								<h3 class="findus__item-title">FROM THE AIRPORT</h3>
+								<p class="findus__item-desc">Siargao Airport (IAO) is approximately 45 minutes from the property. Shared vans are available outside the airport, with fares typically ranging from PHP 350 to PHP 400 per person.</p>
+							</div>
+							<div class="findus__item">
+								<h3 class="findus__item-title">LOCAL TRANSPORT</h3>
+								<p class="findus__item-desc">Habal-habal and tuk-tuks are readily available throughout General Luna. Fares typically range from PHP 30 to PHP 50, depending on your destination. Please note that rates may vary.</p>
+							</div>
+							<div class="findus__item">
+								<h3 class="findus__item-title">AIRPORT TRANSFERS</h3>
+								<p class="findus__item-desc">For a smooth and convenient arrival, you may arrange your airport transfer in advance through Klook or KKday.<br><br>We recommend booking ahead, particularly during weekends, holidays, and peak travel periods.</p>
+							</div>
 						</div>
 					</div>
-		</div>
-					</div>
-		</section>
-		<div class="elementor-element elementor-element-c4e4db2 e-flex e-con-boxed e-con e-parent" data-id="c4e4db2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-8c7c195 e-con-full e-flex e-con e-child" data-id="8c7c195" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-18a7f50 elementor-widget__width-initial elementor-widget elementor-widget-icon-box" data-id="18a7f50" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
-							<div class="elementor-icon-box-wrapper">
-
-			
-						<div class="elementor-icon-box-content">
-
-									<h3 class="elementor-icon-box-title">
-						<span  >
-							FROM THE AIRPORT						</span>
-					</h3>
-				
-									<p class="elementor-icon-box-description">
-						Siargao Airport (IAO) is approximately 45 minutes from the property. Shared vans are available outside the airport, with fares typically ranging from PHP 350 to PHP 400 per person.					</p>
-				
-			</div>
-			
-		</div>
-						</div>
-				</div>
-		<div class="elementor-element elementor-element-98e8808 e-con-full e-flex e-con e-child" data-id="98e8808" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-c1ceb1e elementor-widget elementor-widget-icon-box" data-id="c1ceb1e" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
-							<div class="elementor-icon-box-wrapper">
-
-			
-						<div class="elementor-icon-box-content">
-
-									<h3 class="elementor-icon-box-title">
-						<span  >
-							LOCAL TRANSPORT						</span>
-					</h3>
-				
-									<p class="elementor-icon-box-description">
-						Habal-habal and tuk-tuks are readily available throughout General Luna. Fares typically range from PHP 30 to PHP 50, depending on your destination. Please note that rates may vary.					</p>
-				
-			</div>
-			
-		</div>
-						</div>
-				</div>
-		<div class="elementor-element elementor-element-b0f48e3 e-con-full e-flex e-con e-child" data-id="b0f48e3" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-97431ed elementor-widget elementor-widget-icon-box" data-id="97431ed" data-element_type="widget" data-e-type="widget" data-widget_type="icon-box.default">
-							<div class="elementor-icon-box-wrapper">
-
-			
-						<div class="elementor-icon-box-content">
-
-									<h3 class="elementor-icon-box-title">
-						<span  >
-							AIRPORT TRANSFERS						</span>
-					</h3>
-				
-									<p class="elementor-icon-box-description">
-						For a smooth and convenient arrival, you may arrange your airport transfer in advance through Klook or KKday.
-
-We recommend booking ahead, particularly during weekends, holidays, and peak travel periods.					</p>
-				
-			</div>
-			
-		</div>
-						</div>
-				</div>
-					</div>
-				</div>
+				</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-6a42da53 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6a42da53" data-element_type="section" data-e-type="section" id="faqs" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6b797293" data-id="6b797293" data-element_type="column" data-e-type="column">
