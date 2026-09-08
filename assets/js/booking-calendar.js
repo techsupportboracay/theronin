@@ -19,6 +19,7 @@
   ];
   var prevBtn = calendar.querySelector('.booking-calendar__nav--prev');
   var nextBtn = calendar.querySelector('.booking-calendar__nav--next');
+  var fieldRow = checkinDisplay.closest('.booking-field-row') || checkinDisplay;
 
   var today = new Date();
   today.setHours(0, 0, 0, 0);
@@ -123,13 +124,43 @@
     }
   }
 
+  function positionCalendar() {
+    if (window.matchMedia('(max-width: 600px)').matches) {
+      calendar.style.top = '';
+      calendar.style.left = '';
+      return;
+    }
+    var margin = 8;
+    var edge = 16;
+    var rect = fieldRow.getBoundingClientRect();
+    var calRect = calendar.getBoundingClientRect();
+
+    var top = rect.bottom + margin;
+    if (top + calRect.height > window.innerHeight - edge) {
+      var aboveTop = rect.top - calRect.height - margin;
+      top = aboveTop > edge ? aboveTop : Math.max(edge, window.innerHeight - calRect.height - edge);
+    }
+
+    var left = rect.left;
+    if (left + calRect.width > window.innerWidth - edge) {
+      left = window.innerWidth - calRect.width - edge;
+    }
+    if (left < edge) left = edge;
+
+    calendar.style.top = top + 'px';
+    calendar.style.left = left + 'px';
+  }
+
   function openCalendar() {
     var anchor = startDate || todayIso;
     var anchorParts = anchor.split('-');
     viewYear = Number(anchorParts[0]);
     viewMonth = Number(anchorParts[1]) - 1;
     renderBoth();
+    calendar.style.visibility = 'hidden';
     calendar.hidden = false;
+    positionCalendar();
+    calendar.style.visibility = '';
   }
 
   function closeCalendar() {
@@ -166,4 +197,11 @@
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !calendar.hidden) closeCalendar();
   });
+
+  var panel = calendar.closest('.booking-modal__panel');
+  function reposition() {
+    if (!calendar.hidden) positionCalendar();
+  }
+  if (panel) panel.addEventListener('scroll', reposition, { passive: true });
+  window.addEventListener('resize', reposition);
 })();

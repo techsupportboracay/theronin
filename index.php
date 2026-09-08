@@ -266,18 +266,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<h2 class="section-heading">Everything you need,<br>nothing you don't.</h2>
 						<div class="amenities__grid">
 							<div class="amenities__item">
+								<span class="amenities__icon" aria-hidden="true">
+									<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+										<line x1="14" y1="7" x2="14" y2="19"/>
+										<line x1="18" y1="7" x2="18" y2="19"/>
+										<line x1="22" y1="7" x2="22" y2="19"/>
+										<path d="M13 19c0 3 2 4 5 4s5-1 5-4"/>
+										<line x1="18" y1="23" x2="18" y2="41"/>
+										<path d="M32 7c-4 0-5 5-3 9 1 2 3 3 3 5v20"/>
+									</svg>
+								</span>
 								<p class="amenities__title">On-Site Restaurant</p>
 								<p>A dining experience rooted in tradition and inspired by innovation, transforming Siargao&rsquo;s freshest local harvests into bold, memorable flavors.</p>
 							</div>
 							<div class="amenities__item">
+								<span class="amenities__icon" aria-hidden="true">
+									<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+										<circle cx="24" cy="24" r="17"/>
+										<path d="M19 33V15h7a5.5 5.5 0 0 1 0 11h-7"/>
+									</svg>
+								</span>
 								<p class="amenities__title">On-Site Parking</p>
 								<p>Guests can enjoy the convenience of on-site parking, providing easy and secure access to the property throughout their stay.</p>
 							</div>
 							<div class="amenities__item">
+								<span class="amenities__icon" aria-hidden="true">
+									<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+										<circle cx="34" cy="14" r="5"/>
+										<path d="M6 27c4 0 4-4 8-4s4 4 8 4 4-4 8-4 4 4 8 4"/>
+										<path d="M6 35c4 0 4-4 8-4s4 4 8 4 4-4 8-4 4 4 8 4"/>
+									</svg>
+								</span>
 								<p class="amenities__title">Surfing Beach</p>
 								<p>The property is not directly on the beachfront, but it is conveniently located just a 3&ndash;5-minute motorbike ride or a pleasant 10-minute walk from the main surf beaches and the famous Cloud 9 surfing spot.</p>
 							</div>
 							<div class="amenities__item">
+								<span class="amenities__icon" aria-hidden="true">
+									<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+										<path d="M12 19h20v11a10 10 0 0 1-10 10v0a10 10 0 0 1-10-10V19z"/>
+										<path d="M32 21h3.5a5 5 0 0 1 0 10H32"/>
+										<path d="M17 7c0 2-2 2-2 4s2 2 2 4"/>
+										<path d="M24 7c0 2-2 2-2 4s2 2 2 4"/>
+									</svg>
+								</span>
 								<p class="amenities__title">Caf&eacute; Hopping</p>
 								<p>Explore General Luna&rsquo;s vibrant caf&eacute; scene, where laid-back coffee shops, stylish brunch spots, and dessert caf&eacute;s are all just a short distance away.</p>
 							</div>
