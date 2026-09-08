@@ -145,7 +145,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header class="site-header" id="masthead">
 	<div class="site-header__row">
 		<a href="https://theroninsiargao.com" class="site-header__logo">
-			<img fetchpriority="high" width="1957" height="557" src="wp-content/uploads/2026/06/Logo-Updated.png" srcset="wp-content/uploads/2026/06/Logo-Updated.png 1957w, wp-content/uploads/2026/06/Logo-Updated-300x85.png 300w, wp-content/uploads/2026/06/Logo-Updated-1024x291.png 1024w, wp-content/uploads/2026/06/Logo-Updated-768x219.png 768w, wp-content/uploads/2026/06/Logo-Updated-1536x437.png 1536w" sizes="(max-width: 1957px) 100vw, 1957px" alt="The Ronin Siargao">
+			<img fetchpriority="high" width="1957" height="557" src="wp-content/uploads/2026/06/Logo-Updated.webp" srcset="wp-content/uploads/2026/06/Logo-Updated.webp 1957w, wp-content/uploads/2026/06/Logo-Updated-300x85.webp 300w, wp-content/uploads/2026/06/Logo-Updated-1024x291.webp 1024w, wp-content/uploads/2026/06/Logo-Updated-768x219.webp 768w, wp-content/uploads/2026/06/Logo-Updated-1536x437.webp 1536w" sizes="(max-width: 1957px) 100vw, 1957px" alt="The Ronin Siargao">
 		</a>
 		<nav class="site-nav" aria-label="Primary">
 			<a href="#about" class="site-nav__link">About</a>
@@ -485,7 +485,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<footer id="site-footer">
 			<div class="site-footer__row">
 				<div class="site-footer__brand">
-					<img width="1957" height="557" src="wp-content/uploads/2026/06/Logo-Updated.png" srcset="wp-content/uploads/2026/06/Logo-Updated.png 1957w, wp-content/uploads/2026/06/Logo-Updated-300x85.png 300w, wp-content/uploads/2026/06/Logo-Updated-1024x291.png 1024w, wp-content/uploads/2026/06/Logo-Updated-768x219.png 768w, wp-content/uploads/2026/06/Logo-Updated-1536x437.png 1536w" sizes="(max-width: 1957px) 100vw, 1957px" alt="The Ronin Siargao" class="site-footer__logo">
+					<img width="1957" height="557" src="wp-content/uploads/2026/06/Logo-Updated.webp" srcset="wp-content/uploads/2026/06/Logo-Updated.webp 1957w, wp-content/uploads/2026/06/Logo-Updated-300x85.webp 300w, wp-content/uploads/2026/06/Logo-Updated-1024x291.webp 1024w, wp-content/uploads/2026/06/Logo-Updated-768x219.webp 768w, wp-content/uploads/2026/06/Logo-Updated-1536x437.webp 1536w" sizes="(max-width: 1957px) 100vw, 1957px" alt="The Ronin Siargao" class="site-footer__logo">
 					<p class="site-footer__tagline">A sanctuary at the edge of the ocean.<br>General Luna, Siargao Island, Philippines.</p>
 				</div>
 				<div class="site-footer__col">
