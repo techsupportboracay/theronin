@@ -1187,6 +1187,8 @@ img {
 /* Contact / booking section */
 #contact {
   position: relative;
+  padding: clamp(82px, 9vw, 144px) clamp(22px, 5vw, 72px);
+  background: var(--ronin-paper);
 }
 #contact::before {
   position: absolute;
@@ -1516,6 +1518,9 @@ img {
   }
   .hero__tagline {
     font-size: 15px;
+  }
+  #contact {
+    padding: 72px 20px;
   }
   #contact::before {
     display: none;
