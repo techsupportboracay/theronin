@@ -53,6 +53,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "addressRegion": "Surigao Del Norte",
     "addressCountry": "PH"
   },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 9.8034107,
+    "longitude": 126.1586747
+  },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Wild%20Siargao%20Restaurant&query_place_id=ChIJozHp8gEJBDMRqCullPvjW4c",
   "checkinTime": "15:00",
   "checkoutTime": "12:00",
   "amenityFeature": [
@@ -428,7 +434,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<h2 class="findus__heading">Getting to The Ronin</h2>
 						<div class="findus__map">
 							<iframe loading="lazy"
-									src="https://maps.google.com/maps?q=The%20Ronin%20Siargao%2C%20Tourism%20Road%20Catangnan%20General%20Luna%20Siargao%20Surigao%20Del%20Norte%20Philippines&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near"
+									src="https://maps.google.com/maps?q=Wild%20Siargao%20Restaurant%2C%20Tourism%20Rd%2C%20General%20Luna%2C%20Surigao%20del%20Norte&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"
 									title="The Ronin Siargao, Tourism Road Catangnan General Luna Siargao Surigao Del Norte Philippines"
 									aria-label="The Ronin Siargao, Tourism Road Catangnan General Luna Siargao Surigao Del Norte Philippines"
 							></iframe>
