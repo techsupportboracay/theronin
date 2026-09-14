@@ -125,7 +125,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
-<link rel='stylesheet' href='assets/css/custom.css?v=3a91c02' media='all' />
+<link rel='stylesheet' href='assets/css/custom.css?v=20260914' media='all' />
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
   // Preflight is disabled because it globally resets margins/headings/lists,
@@ -432,6 +432,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="site-section__row">
 						<p class="findus__kicker">06 / Find Us</p>
 						<h2 class="findus__heading">Getting to The Ronin</h2>
+						<div class="findus__note">
+							<h3 class="findus__item-title">FINDING THE PROPERTY</h3>
+							<p class="findus__item-desc">For the easiest arrival, please use <strong>Wild Siargao Restaurant</strong> as your main landmark. The Ronin is located at the same property. We strongly recommend opening the map before travelling and showing the location to your driver.</p>
+							<a class="findus__note-link" href="https://www.google.com/maps/search/?api=1&amp;query=Wild%20Siargao%20Restaurant&amp;query_place_id=ChIJozHp8gEJBDMRqCullPvjW4c" target="_blank" rel="noopener">Open in Google Maps &rarr;</a>
+						</div>
 						<div class="findus__map">
 							<iframe loading="lazy"
 									src="https://maps.google.com/maps?q=Wild%20Siargao%20Restaurant%2C%20Tourism%20Rd%2C%20General%20Luna%2C%20Surigao%20del%20Norte&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"

@@ -1343,8 +1343,34 @@ img {
   font-style: italic;
   font-weight: 400;
 }
+.findus__note {
+  margin-top: 40px;
+  padding: 24px 28px;
+  border-left: 3px solid #d26d04;
+  background: var(--ronin-sand);
+}
+.findus__note .findus__item-desc {
+  max-width: 820px;
+}
+.findus__note-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: #d26d04;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+.findus__note-link:hover,
+.findus__note-link:focus-visible {
+  color: var(--ronin-ink);
+}
 .findus__map {
   margin-top: 40px;
+}
+.findus__note + .findus__map {
+  margin-top: 28px;
 }
 .findus__map iframe {
   display: block;
