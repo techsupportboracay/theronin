@@ -59,6 +59,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "longitude": 126.1583978
   },
   "hasMap": "https://www.google.com/maps/search/?api=1&query=The%20Ronin%20Siargao&query_place_id=ChIJByfGvj8JBDMRDJhUarzHTq4",
+  "sameAs": [
+    "https://www.facebook.com/theroninsiargao",
+    "https://www.booking.com/hotel/ph/the-ronin.html",
+    "https://www.agoda.com/en-nz/the-ronin/hotel/siargao-island-ph.html",
+    "https://www.airbnb.com/rooms/1566426270076093215"
+  ],
   "checkinTime": "15:00",
   "checkoutTime": "12:00",
   "amenityFeature": [
@@ -424,6 +430,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="contact__info-item">
 								<h3 class="contact__info-title">Check-in / Check-out</h3>
 								<p class="contact__info-desc">Check-in: 3:00 PM<br>Check-out: 12:00 PM</p>
+							</div>
+							<span class="contact__divider"></span>
+							<div class="contact__info-item">
+								<h3 class="contact__info-title">Follow Us</h3>
+								<p class="contact__info-desc"><a href="https://www.facebook.com/theroninsiargao" target="_blank" rel="noopener">Facebook</a></p>
 							</div>
 						</div>
 					</div>
