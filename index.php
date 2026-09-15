@@ -55,10 +55,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 9.8034107,
-    "longitude": 126.1586747
+    "latitude": 9.8034504,
+    "longitude": 126.1583978
   },
-  "hasMap": "https://www.google.com/maps/search/?api=1&query=Wild%20Siargao%20Restaurant&query_place_id=ChIJozHp8gEJBDMRqCullPvjW4c",
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=The%20Ronin%20Siargao&query_place_id=ChIJByfGvj8JBDMRDJhUarzHTq4",
   "checkinTime": "15:00",
   "checkoutTime": "12:00",
   "amenityFeature": [
@@ -435,11 +435,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="findus__note">
 							<h3 class="findus__item-title">FINDING THE PROPERTY</h3>
 							<p class="findus__item-desc">For the easiest arrival, please use <strong>Wild Siargao Restaurant</strong> as your main landmark. The Ronin is located at the same property. We strongly recommend opening the map before travelling and showing the location to your driver.</p>
-							<a class="findus__note-link" href="https://www.google.com/maps/search/?api=1&amp;query=Wild%20Siargao%20Restaurant&amp;query_place_id=ChIJozHp8gEJBDMRqCullPvjW4c" target="_blank" rel="noopener">Open in Google Maps &rarr;</a>
+							<a class="findus__note-link" href="https://www.google.com/maps/search/?api=1&amp;query=The%20Ronin%20Siargao&amp;query_place_id=ChIJByfGvj8JBDMRDJhUarzHTq4" target="_blank" rel="noopener">Open in Google Maps &rarr;</a>
 						</div>
 						<div class="findus__map">
 							<iframe loading="lazy"
-									src="https://maps.google.com/maps?q=Wild%20Siargao%20Restaurant%2C%20Tourism%20Rd%2C%20General%20Luna%2C%20Surigao%20del%20Norte&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000!2d126.1583978!3d9.8034504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3304093fbec62707%3A0xae4ec7bc6a54980c!2sThe%20Ronin%20Siargao!5e0!3m2!1sen!2sph!4v1757900000000!5m2!1sen!2sph"
 									title="The Ronin Siargao, Tourism Road Catangnan General Luna Siargao Surigao Del Norte Philippines"
 									aria-label="The Ronin Siargao, Tourism Road Catangnan General Luna Siargao Surigao Del Norte Philippines"
 							></iframe>
