@@ -1595,6 +1595,38 @@ img {
   font-weight: 400;
   letter-spacing: -0.6px;
 }
+.site-footer__social {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0 0;
+}
+.site-footer__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(250, 248, 244, 0.08);
+  color: rgba(250, 248, 244, 0.7);
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.site-footer__social-link:hover {
+  background: #c0795a;
+  color: #1a1008;
+}
+.site-footer__social-link svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+.site-footer__social-link--letter span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
 .site-footer__label {
   margin: 0 0 20px;
   color: #c0795a;
