@@ -30,6 +30,10 @@
   var startDate = null;
   var endDate = null;
 
+  var priceCache = {};
+  var pricesLoaded = false;
+  var pricesLoading = false;
+
   function pad(n) {
     return n < 10 ? '0' + n : String(n);
   }
@@ -42,6 +46,35 @@
   function formatDisplay(iso) {
     var parts = iso.split('-');
     return parts[1] + '/' + parts[2] + '/' + parts[0];
+  }
+
+  function formatPrice(n) {
+    if (n >= 1000) {
+      var k = Math.round((n / 1000) * 10) / 10;
+      return '₱' + k + 'K';
+    }
+    return '₱' + Math.round(n);
+  }
+
+  function loadPrices() {
+    if (pricesLoaded || pricesLoading) return;
+    pricesLoading = true;
+    var end = new Date(today);
+    end.setDate(end.getDate() + 365);
+    var qs = new URLSearchParams({ start: todayIso, end: toIso(end.getFullYear(), end.getMonth(), end.getDate()) });
+    fetch('api/calendar.php?' + qs.toString())
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        pricesLoading = false;
+        if (data.ok) {
+          priceCache = data.days;
+          pricesLoaded = true;
+          renderBoth();
+        }
+      })
+      .catch(function () {
+        pricesLoading = false;
+      });
   }
 
   function renderMonth(year, month, monthEntry) {
@@ -70,6 +103,17 @@
       inner.className = 'booking-calendar__day-inner';
       inner.textContent = String(day);
       btn.appendChild(inner);
+
+      var priceInfo = priceCache[iso];
+      if (priceInfo) {
+        var priceEl = document.createElement('span');
+        priceEl.className = 'booking-calendar__day-price';
+        priceEl.textContent = formatPrice(priceInfo.price);
+        if (!priceInfo.available) {
+          priceEl.classList.add('is-unavailable');
+        }
+        btn.appendChild(priceEl);
+      }
 
       if (iso < todayIso) {
         btn.disabled = true;
@@ -161,6 +205,7 @@
     calendar.hidden = false;
     positionCalendar();
     calendar.style.visibility = '';
+    loadPrices();
   }
 
   function closeCalendar() {

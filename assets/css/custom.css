@@ -425,9 +425,11 @@
 .booking-calendar__day {
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 36px;
+  gap: 2px;
+  height: 52px;
   padding: 0;
   border: none;
   background: transparent;
@@ -456,8 +458,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
 }
 .booking-calendar__day.is-today .booking-calendar__day-inner {
@@ -467,6 +469,18 @@
 .booking-calendar__day.is-end .booking-calendar__day-inner {
   background: #2d2620;
   color: #fff;
+}
+.booking-calendar__day-price {
+  font-size: 10px;
+  line-height: 1;
+  color: #8a7d70;
+}
+.booking-calendar__day-price.is-unavailable {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.booking-calendar__day.is-disabled .booking-calendar__day-price {
+  color: rgba(45, 38, 32, 0.25);
 }
 @media (max-width: 600px) {
   .booking-calendar {
