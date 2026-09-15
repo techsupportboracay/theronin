@@ -85,6 +85,30 @@ if (!$booking['ok']) {
     fail('We could not create your booking right now. Please contact us on WhatsApp: +' . env('WHATSAPP_NUMBER'), 502);
 }
 
+$reference = $booking['id'] ?? 'pending';
+
+// The booking itself is confirmed at this point. Everything below (invoice
+// charge sync, confirmation emails) is best-effort follow-up that involves
+// slow network round-trips (extra Beds24 call, two full SMTP handshakes) -
+// send the response now and finish that work after the client disconnects
+// so "Confirm Booking" doesn't sit there waiting on it.
+echo json_encode([
+    'ok' => true,
+    'reference' => $reference,
+    'totalPrice' => $totalPrice,
+    'amountDue' => $totalPrice,
+]);
+
+ignore_user_abort(true);
+if (function_exists('fastcgi_finish_request')) {
+    fastcgi_finish_request();
+} else {
+    header('Connection: close');
+    ob_start();
+    ob_end_flush();
+    flush();
+}
+
 // Best-effort: push an accommodation charge so it shows in Beds24's Charges
 // & Payments tab. Never blocks the booking itself if this fails.
 if ($booking['id']) {
@@ -98,7 +122,6 @@ $bankName = env('BANK_NAME', '(bank details to follow by email/WhatsApp)');
 $bankAccountName = env('BANK_ACCOUNT_NAME', '');
 $bankAccountNumber = env('BANK_ACCOUNT_NUMBER', '');
 $bankSwift = env('BANK_SWIFT', '');
-$reference = $booking['id'] ?? 'pending';
 $whatsapp = env('WHATSAPP_NUMBER');
 
 $totalFormatted = number_format($totalPrice, 2);
@@ -204,10 +227,3 @@ if ($notifyEmail) {
         . ($notes !== '' ? "Notes: $notes\n" : '');
     send_mail($notifyEmail, 'New booking request - The Ronin Siargao', $ownerBody, $email);
 }
-
-echo json_encode([
-    'ok' => true,
-    'reference' => $reference,
-    'totalPrice' => $totalPrice,
-    'amountDue' => $totalPrice,
-]);
