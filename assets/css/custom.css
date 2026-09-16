@@ -1597,33 +1597,48 @@ img {
 }
 .site-footer__social {
   display: flex;
-  gap: 10px;
-  margin: 20px 0 0;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0 0;
 }
 .site-footer__social-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   background: rgba(250, 248, 244, 0.08);
-  color: rgba(250, 248, 244, 0.7);
+  color: #fff;
   text-decoration: none;
-  transition: background 0.2s ease, color 0.2s ease;
-}
-.site-footer__social-link:hover {
-  background: #c0795a;
-  color: #1a1008;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.28);
+  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
 }
 .site-footer__social-link svg {
-  width: 15px;
-  height: 15px;
+  width: 22px;
+  height: 22px;
   fill: currentColor;
+}
+/* Brand colours. The Booking.com glyph is drawn small inside its 24x24 box,
+   so it gets a larger svg to look the same size as the others. */
+.site-footer__social-link--facebook { background: #0866ff; }
+.site-footer__social-link--instagram {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.site-footer__social-link--airbnb { background: #ff5a5f; }
+.site-footer__social-link--booking { background: #003b95; }
+.site-footer__social-link--booking svg { width: 38px; height: 38px; }
+.site-footer__social-link--agoda { background: #00a9dc; }
+.site-footer__social-link:hover,
+.site-footer__social-link:focus-visible {
+  transform: translateY(-2px);
+  filter: brightness(1.12);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
 }
 .site-footer__social-link--letter span {
   font-family: "DM Sans", sans-serif;
-  font-size: 14px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 1;
 }
