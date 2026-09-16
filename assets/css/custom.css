@@ -1629,18 +1629,13 @@ img {
 .site-footer__social-link--airbnb { background: #ff5a5f; }
 .site-footer__social-link--booking { background: #003b95; }
 .site-footer__social-link--booking svg { width: 38px; height: 38px; }
-.site-footer__social-link--agoda { background: #00a9dc; }
+.site-footer__social-link--agoda { background: #fff; }
+.site-footer__social-link--agoda svg { width: 26px; height: 26px; }
 .site-footer__social-link:hover,
 .site-footer__social-link:focus-visible {
   transform: translateY(-2px);
   filter: brightness(1.12);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
-}
-.site-footer__social-link--letter span {
-  font-family: "DM Sans", sans-serif;
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 1;
 }
 .site-footer__label {
   margin: 0 0 20px;

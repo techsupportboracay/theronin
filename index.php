@@ -132,7 +132,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
-<link rel='stylesheet' href='assets/css/custom.css?v=20260916' media='all' />
+<link rel='stylesheet' href='assets/css/custom.css?v=20260916b' media='all' />
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
   // Preflight is disabled because it globally resets margins/headings/lists,
@@ -554,8 +554,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<a href="https://www.booking.com/hotel/ph/the-ronin.html" target="_blank" rel="noopener" aria-label="Booking.com" class="site-footer__social-link site-footer__social-link--booking">
 							<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.575 6.563h2.658c2.108 0 3.473 1.15 3.473 2.898 0 1.15-.575 1.82-.91 2.108l-.287.263.335.192c.815.479 1.318 1.389 1.318 2.395 0 1.988-1.51 3.257-3.857 3.257H7.449V7.713c0-.623.503-1.126 1.126-1.15zm1.7 1.868c-.479.024-.694.264-.694.79v1.893h1.676c.958 0 1.294-.743 1.294-1.365 0-.815-.503-1.318-1.318-1.318zm-.096 4.36c-.407.071-.598.31-.598.79v2.251h1.868c.934 0 1.509-.55 1.509-1.533 0-.934-.599-1.509-1.51-1.509zm7.737 2.394c.743 0 1.341.599 1.341 1.342a1.34 1.34 0 0 1-1.341 1.341 1.355 1.355 0 0 1-1.341-1.341c0-.743.598-1.342 1.34-1.342z"/></svg>
 						</a>
-						<a href="https://www.agoda.com/en-nz/the-ronin/hotel/siargao-island-ph.html" target="_blank" rel="noopener" aria-label="Agoda" class="site-footer__social-link site-footer__social-link--letter site-footer__social-link--agoda">
-							<span aria-hidden="true">A</span>
+						<a href="https://www.agoda.com/en-nz/the-ronin/hotel/siargao-island-ph.html" target="_blank" rel="noopener" aria-label="Agoda" class="site-footer__social-link site-footer__social-link--agoda">
+							<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="3.2" fill="#ed1c24"/><circle cx="19.6" cy="9.5" r="3.2" fill="#f69e1d"/><circle cx="16.7" cy="18.5" r="3.2" fill="#19ac5b"/><circle cx="7.3" cy="18.5" r="3.2" fill="#814fa0"/><circle cx="4.4" cy="9.5" r="3.2" fill="#347fc2"/></svg>
 						</a>
 					</div>
 				</div>
